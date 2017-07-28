@@ -1,0 +1,7 @@
+\select@language {english}
+\par \penalty \@M \textbf {{\scshape Table} \hfill Page}\par \penalty \@M 
+\addvspace {10pt}
+\addvspace {10pt}
+\contentsline {table}{\numberline {2.1}{\ignorespaces Definitions and contents of the analysis bins for the high energy channel. The expected background counts are calculated by taking the calibration sample and scaling it by $6.54\times 10^{-3}$, which is the ratio of observed counts to calibration counts in a sideband.}}{9}{table.2.1}
+\addvspace {10pt}
+\contentsline {table}{\numberline {A.1}{\ignorespaces Detector response table using $\mathcal {L}_{\mathrm {eff}}$ with constrained scaling parameter set to $-1\sigma $ value. First column gives recoil energies, subsequent columns give the values of $G'_i(E)$ for each of the 9 high-energy analysis bins. The sampling is in steps of $10~\mathrm {keV_\mathrm {nr}}$, which is too coarse to give an accurate signal model for very low WIMP masses, but is suitable for the mass range most relevant to our analysis. Higher resolution $G'_i(E)$ functions, and $G'_i(E)$ functions for other values of $\mathcal {L}_{\mathrm {eff}}$, are given in supplementary material. }}{20}{table.A.1}

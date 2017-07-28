@@ -1,0 +1,749 @@
+%% This BibTeX bibliography file was created using BibDesk.
+%% http://bibdesk.sourceforge.net/
+
+%% Saved with string encoding Unicode (UTF-8) 
+%%%%%%%%%%%%%%%%%%%%%%%%%% Intro papers %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@article{Planck,
+      author         = "Ade, P. A. R. and others",
+      title          = "{Planck 2015 results. XIII. Cosmological parameters}",
+      collaboration  = "Planck",
+      journal        = "Astron. Astrophys.",
+      volume         = "594",
+      year           = "2016",
+      pages          = "A13",
+      doi            = "10.1051/0004-6361/201525830",
+      eprint         = "1502.01589",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.CO",
+      SLACcitation   = "%%CITATION = ARXIV:1502.01589;%%"
+}
+
+
+@article{DeSimone:2016fbz,
+      author         = "De Simone, Andrea and Jacques, Thomas",
+      title          = "{Simplified models vs. effective field theory approaches
+                        in dark matter searches}",
+      journal        = "Eur. Phys. J.",
+      volume         = "C76",
+      year           = "2016",
+      number         = "7",
+      pages          = "367",
+      doi            = "10.1140/epjc/s10052-016-4208-4",
+      eprint         = "1603.08002",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "SISSA-21-2016-FISI",
+      SLACcitation   = "%%CITATION = ARXIV:1603.08002;%%"
+}
+
+
+@article{WMAP:9years,
+      author         = "Bennett, C. L. and others",
+      title          = "{Nine-Year Wilkinson Microwave Anisotropy Probe (WMAP)
+                        Observations: Final Maps and Results}",
+      collaboration  = "WMAP",
+      journal        = "Astrophys. J. Suppl.",
+      volume         = "208",
+      year           = "2013",
+      pages          = "20",
+      doi            = "10.1088/0067-0049/208/2/20",
+      eprint         = "1212.5225",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.CO",
+      SLACcitation   = "%%CITATION = ARXIV:1212.5225;%%"
+}
+
+@article{LEWIN,
+      author         = "Lewin, J. D. and Smith, P. F.",
+      title          = "{Review of mathematics, numerical factors, and
+                        corrections for dark matter experiments based on elastic nuclear recoil}",
+      journal        = "Astropart. Phys.",
+      volume         = "6",
+      year           = "1996",
+      pages          = "87-112",
+      doi            = "10.1016/S0927-6505(96)00047-3",
+      reportNumber   = "RAL-TR-95-024",
+      SLACcitation   = "%%CITATION = APHYE,6,87;%%"
+}
+@article {Harvey1462,
+      author         = "Harvey, David and Massey, Richard and Kitching, Thomas
+                        and Taylor, Andy and Tittley, Eric",
+      title          = "{The non-gravitational interactions of dark matter in
+                        colliding galaxy clusters}",
+      journal        = "Science",
+      volume         = "347",
+      year           = "2015",
+      pages          = "1462-1465",
+      doi            = "10.1126/science.1261381",
+      eprint         = "1503.07675",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.CO",
+      SLACcitation   = "%%CITATION = ARXIV:1503.07675;%%"
+}
+
+@Article{DAMA,
+      author         = "Bernabei, R. and others",
+      title          = "{New results from DAMA/LIBRA}",
+      collaboration  = "DAMA, LIBRA",
+      journal        = "Eur. Phys. J.",
+      volume         = "C67",
+      year           = "2010",
+      pages          = "39-49",
+      doi            = "10.1140/epjc/s10052-010-1303-9",
+      eprint         = "1002.1028",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.GA",
+      SLACcitation   = "%%CITATION = ARXIV:1002.1028;%%"
+}
+@article{COGENT,
+      author         = "Aalseth, C. E. and others",
+      title          = "{CoGeNT: A Search for Low-Mass Dark Matter using p-type
+                        Point Contact Germanium Detectors}",
+      collaboration  = "CoGeNT",
+      journal        = "Phys. Rev.",
+      volume         = "D88",
+      year           = "2013",
+      pages          = "012002",
+      doi            = "10.1103/PhysRevD.88.012002",
+      eprint         = "1208.5737",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.CO",
+      SLACcitation   = "%%CITATION = ARXIV:1208.5737;%%"
+}
+@article{CDMSlite,
+  title = {Search for Low-Mass Weakly Interacting Massive Particles Using Voltage-Assisted Calorimetric Ionization Detection in the SuperCDMS Experiment},
+  author = {Agnese, R. and others},
+  collaboration = {SuperCDMS collaboration},
+  journal = {Phys. Rev. Lett.},
+  volume = {112},
+  issue = {4},
+  pages = {041302},
+  numpages = {6},
+  year = {2014},
+  month = {Jan},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.112.041302},
+}
+
+@Article{CREST,
+      author         = "Angloher, G. and others",
+      title          = "{Results from 730 kg days of the CRESST-II Dark Matter
+                        Search}",
+      journal        = "Eur. Phys. J.",
+      volume         = "C72",
+      year           = "2012",
+      pages          = "1971",
+      doi            = "10.1140/epjc/s10052-012-1971-8",
+      eprint         = "1109.0702",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.CO",
+      SLACcitation   = "%%CITATION = ARXIV:1109.0702;%%"
+}
+
+@article{LUXnew,
+      author         = "Akerib, D. S. and others",
+      title          = "{Improved Limits on Scattering of Weakly Interacting
+                        Massive Particles from Reanalysis of 2013 LUX Data}",
+      collaboration  = "LUX",
+      journal        = "Phys. Rev. Lett.",
+      volume         = "116",
+      year           = "2016",
+      number         = "16",
+      pages          = "161301",
+      doi            = "10.1103/PhysRevLett.116.161301",
+      eprint         = "1512.03506",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.CO",
+      SLACcitation   = "%%CITATION = ARXIV:1512.03506;%%"
+}
+
+@article{PANDAX,
+      author         = "Tan, Andi and others",
+      title          = "{Dark Matter Results from First 98.7 Days of Data from
+                        the PandaX-II Experiment}",
+      collaboration  = "PandaX-II",
+      journal        = "Phys. Rev. Lett.",
+      volume         = "117",
+      year           = "2016",
+      number         = "12",
+      pages          = "121303",
+      doi            = "10.1103/PhysRevLett.117.121303",
+      eprint         = "1607.07400",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      SLACcitation   = "%%CITATION = ARXIV:1607.07400;%%"
+}
+@book{Bertone:2010zza,
+      author         = "J. Silk and others",
+      title          = "{Particle Dark Matter: Observations, Models and
+                        Searches}",
+      publisher      = "Cambridge Univ. Press",
+      address        = "Cambridge",
+      year           = "2010",
+      doi            = "10.1017/CBO9780511770739",
+      ISBN           = "9781107653924",
+      SLACcitation   = "%%CITATION = INSPIRE-895273;%%"
+}
+
+@article{Muna:2007zz,
+      author         = "Muna, D.",
+      title          = "{The DRIFT-II directional dark matter detector}",
+      booktitle      = "{Dark matter 2006, proceedings of the 7th UCLA Symposium
+                        on Sources and Detection of Dark Matter and Dark Energy in
+                        the Universe, Marina del Rey, CA, USA, 22-24 February
+                        2006}",
+      collaboration  = "DRIFT Dark Matter",
+      journal        = "Nucl. Phys. Proc. Suppl.",
+      volume         = "173",
+      year           = "2007",
+      pages          = "172-175",
+      doi            = "10.1016/j.nuclphysbps.2007.08.151",
+      SLACcitation   = "%%CITATION = NUPHZ,173,172;%%"
+}
+
+@article{Deaconu:2017vam,
+      author         = "Deaconu, Cosmin and Leyton, Michael and Corliss, Ross and
+                        Druitt, Gabriela and Eggleston, Richard and Guerrero,
+                        Natalia and Henderson, Shawn and Lopez, Jeremy and Monroe,
+                        Jocelyn and Fisher, Peter",
+      title          = "{Measurement of the directional sensitivity of Dark
+                        Matter Time Projection Chamber detectors}",
+      journal        = "Phys. Rev.",
+      volume         = "D95",
+      year           = "2017",
+      number         = "12",
+      pages          = "122002",
+      doi            = "10.1103/PhysRevD.95.122002",
+      eprint         = "1705.05965",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.IM",
+      SLACcitation   = "%%CITATION = ARXIV:1705.05965;%%"
+}
+
+@article{Riffard:2016mgw,
+      author         = "Riffard, Q. and others",
+      title          = "{MIMAC low energy electron-recoil discrimination measured
+                        with fast neutrons}",
+      journal        = "JINST",
+      volume         = "11",
+      year           = "2016",
+      number         = "08",
+      pages          = "P08011",
+      doi            = "10.1088/1748-0221/11/08/P08011",
+      eprint         = "1602.01738",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.IM",
+      SLACcitation   = "%%CITATION = ARXIV:1602.01738;%%"
+}
+
+@article{Yakabe:2016pjh,
+      author         = "Yakabe, Ryota and Yamaguchi, Yushiro and Miuchi, Kentaro
+                        and Nakamura, Kiseki and Nakaura, Shota and Hashimoto,
+                        Takashi and Ikeda, Tomonori and Taishaku, Ryosuke",
+      title          = "{Direction-Sensitive Dark Matter Search Using Micro
+                        Time-Projection-Chamber}",
+      booktitle      = "{Proceedings, 1st International Symposium on Radiation
+                        Detectors and Their Uses (ISRD2016): Tsukuba, Japan,
+                        January 18-21, 2016}",
+      journal        = "JPS Conf. Proc.",
+      volume         = "11",
+      year           = "2016",
+      pages          = "040002",
+      doi            = "10.7566/JPSCP.11.040002",
+      SLACcitation   = "%%CITATION = INSPIRE-1506496;%%"
+}
+
+@article{InelasticIntro,
+      author         = "Tucker-Smith, David and Weiner, Neal",
+      title          = "{Inelastic dark matter}",
+      journal        = "Phys. Rev.",
+      volume         = "D64",
+      year           = "2001",
+      pages          = "043502",
+      doi            = "10.1103/PhysRevD.64.043502",
+      eprint         = "hep-ph/0101138",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "UCB-PTH-00-43, LBNL-47234, UW-PT-00-17",
+      SLACcitation   = "%%CITATION = HEP-PH/0101138;%%"
+}
+
+@article{Chang:2009yt,
+      author         = "Chang, Spencer and Pierce, Aaron and Weiner, Neal",
+      title          = "{Momentum Dependent Dark Matter Scattering}",
+      journal        = "JCAP",
+      volume         = "1001",
+      year           = "2010",
+      pages          = "006",
+      doi            = "10.1088/1475-7516/2010/01/006",
+      eprint         = "0908.3192",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "MCTP-09-42",
+      SLACcitation   = "%%CITATION = ARXIV:0908.3192;%%"
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Xenon Properties %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@article{Manzur:2009hp,
+      author         = "Manzur, A. and Curioni, A. and Kastens, L. and McKinsey,
+                        D. N. and Ni, K. and Wongjirad, T.",
+      title          = "{Scintillation efficiency and ionization yield of liquid
+                        xenon for mono-energetic nuclear recoils down to 4 keV}",
+      journal        = "Phys. Rev.",
+      volume         = "C81",
+      year           = "2010",
+      pages          = "025808",
+      doi            = "10.1103/PhysRevC.81.025808",
+      eprint         = "0909.1063",
+      archivePrefix  = "arXiv",
+      primaryClass   = "physics.ins-det",
+      SLACcitation   = "%%CITATION = ARXIV:0909.1063;%%"
+}
+
+@article{Aprile:2012an,
+      author         = "Aprile, E. and others",
+      title          = "{Measurement of the Scintillation Yield of Low-Energy
+                        Electrons in Liquid Xenon}",
+      journal        = "Phys. Rev.",
+      volume         = "D86",
+      year           = "2012",
+      pages          = "112004",
+      doi            = "10.1103/PhysRevD.86.112004",
+      eprint         = "1209.3658",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.IM",
+      SLACcitation   = "%%CITATION = ARXIV:1209.3658;%%"
+}
+
+@article{Baudis:2013cca,
+      author         = "Baudis, Laura and Dujmovic, Hrvoje and Geis, Christopher
+                        and James, Andreas and Kish, Alexander and Manalaysay,
+                        Aaron and Marrodan Undagoitia, Teresa and Schumann, Marc",
+      title          = "{Response of liquid xenon to Compton electrons down to
+                        1.5 keV}",
+      journal        = "Phys. Rev.",
+      volume         = "D87",
+      year           = "2013",
+      number         = "11",
+      pages          = "115015",
+      doi            = "10.1103/PhysRevD.87.115015",
+      eprint         = "1303.6891",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.IM",
+      SLACcitation   = "%%CITATION = ARXIV:1303.6891;%%"
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  EFT papers %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{XenonSingleElectron,
+      author         = "Aprile, E. and others",
+      title          = "{Observation and applications of single-electron charge
+                        signals in the XENON100 experiment}",
+      collaboration  = "XENON100",
+      journal        = "J. Phys.",
+      volume         = "G41",
+      year           = "2014",
+      pages          = "035201",
+      doi            = "10.1088/0954-3899/41/3/035201",
+      eprint         = "1311.1088",
+      archivePrefix  = "arXiv",
+      primaryClass   = "physics.ins-det",
+      SLACcitation   = "%%CITATION = ARXIV:1311.1088;%%"
+}
+
+@article{Fitzpatrick:MathTools,
+      author         = "Fitzpatrick, A. Liam and Haxton, Wick and Katz, Emanuel
+                        and Lubbers, Nicholas and Xu, Yiming",
+      title          = "{The Effective Field Theory of Dark Matter Direct
+                        Detection}",
+      journal        = "JCAP",
+      volume         = "1302",
+      year           = "2013",
+      pages          = "004",
+      doi            = "10.1088/1475-7516/2013/02/004",
+      eprint         = "1203.3542",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = ARXIV:1203.3542;%%"
+}
+
+@article{Anand:MathTools,
+      author         = "Anand, Nikhil and Fitzpatrick, A. Liam and Haxton, W. C.",
+      title          = "{Weakly interacting massive particle-nucleus elastic
+                        scattering response}",
+      journal        = "Phys. Rev.",
+      volume         = "C89",
+      year           = "2014",
+      number         = "6",
+      pages          = "065501",
+      doi            = "10.1103/PhysRevC.89.065501",
+      eprint         = "1308.6288",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = ARXIV:1308.6288;%%"
+}
+
+@article{Fitzpatrick:2012ib,
+      author         = "Fitzpatrick, A. Liam and Haxton, Wick and Katz, Emanuel
+                        and Lubbers, Nicholas and Xu, Yiming",
+      title          = "{Model Independent Direct Detection Analyses}",
+      year           = "2012",
+      eprint         = "1211.2818",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = ARXIV:1211.2818;%%"
+}
+
+
+@article{InelasticReview,
+      author         = "Bramante, Joseph and Fox, Patrick J. and Kribs, Graham D.
+                        and Martin, Adam",
+      title          = "{Inelastic frontier: Discovering dark matter at high
+                        recoil energy}",
+      journal        = "Phys. Rev.",
+      volume         = "D94",
+      year           = "2016",
+      number         = "11",
+      pages          = "115026",
+      doi            = "10.1103/PhysRevD.94.115026",
+      eprint         = "1608.02662",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "FERMILAB-PUB-16-301-T",
+      SLACcitation   = "%%CITATION = ARXIV:1608.02662;%%"
+}
+
+@article{InelasticMath,
+      author         = "Barello, G. and Chang, Spencer and Newby, Christopher A.",
+      title          = "{A Model Independent Approach to Inelastic Dark Matter
+                        Scattering}",
+      journal        = "Phys. Rev.",
+      volume         = "D90",
+      year           = "2014",
+      number         = "9",
+      pages          = "094027",
+      doi            = "10.1103/PhysRevD.90.094027",
+      eprint         = "1409.0536",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = ARXIV:1409.0536;%%"
+}
+
+@article{CDMSEFT,
+      author         = "Schneck, K. and others",
+      title          = "{Dark matter effective field theory scattering in direct
+                        detection experiments}",
+      collaboration  = "SuperCDMS",
+      journal        = "Phys. Rev.",
+      volume         = "D91",
+      year           = "2015",
+      number         = "9",
+      pages          = "092004",
+      doi            = "10.1103/PhysRevD.91.092004",
+      eprint         = "1503.03379",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.CO",
+      reportNumber   = "IPPP-15-06, DCTP-15-12, FERMILAB-PUB-15-393-AE",
+      SLACcitation   = "%%CITATION = ARXIV:1503.03379;%%"
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Inelastic WIMP Results%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{Zepplin_Inel,
+      author         = "Akimov, D. {\relax Yu}. and others",
+      title          = "{Limits on inelastic dark matter from ZEPLIN-III}",
+      collaboration  = "ZEPLIN-III",
+      journal        = "Phys. Lett.",
+      volume         = "B692",
+      year           = "2010",
+      pages          = "180-183",
+      doi            = "10.1016/j.physletb.2010.07.042",
+      eprint         = "1003.5626",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      SLACcitation   = "%%CITATION = ARXIV:1003.5626;%%"
+}
+
+@article{CDMS_Inelastic,
+      author         = "Ahmed, Z. and others",
+      title          = "{Dark Matter Search Results from the CDMS II Experiment}",
+      collaboration  = "CDMS-II",
+      journal        = "Science",
+      volume         = "327",
+      year           = "2010",
+      pages          = "1619-1621",
+      doi            = "10.1126/science.1186112",
+      eprint         = "0912.3592",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.CO",
+      reportNumber   = "FERMILAB-PUB-09-637-AE",
+      SLACcitation   = "%%CITATION = ARXIV:0912.3592;%%"
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Xenon papers %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{XENON_Inelastic_WIMP,
+      author         = "Aprile, E. and others",
+      title          = "{Implications on Inelastic Dark Matter from 100 Live Days
+                        of XENON100 Data}",
+      collaboration  = "XENON100",
+      journal        = "Phys. Rev.",
+      volume         = "D84",
+      year           = "2011",
+      pages          = "061101",
+      doi            = "10.1103/PhysRevD.84.061101",
+      eprint         = "1104.3121",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.CO",
+      SLACcitation   = "%%CITATION = ARXIV:1104.3121;%%"
+}
+
+
+@article{DataMCXenon,
+      author         = "Aprile, E. and others",
+      title          = "{Response of the XENON100 Dark Matter Detector to Nuclear
+                        Recoils}",
+      collaboration  = "XENON100",
+      journal        = "Phys. Rev.",
+      volume         = "D88",
+      year           = "2013",
+      pages          = "012006",
+      doi            = "10.1103/PhysRevD.88.012006",
+      eprint         = "1304.1427",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.IM",
+      SLACcitation   = "%%CITATION = ARXIV:1304.1427;%%"
+}
+
+
+@article{xe100_instr2012,
+      author         = "Aprile, E. and others",
+      title          = "{The XENON100 Dark Matter Experiment}",
+      collaboration  = "XENON100",
+      journal        = "Astropart. Phys.",
+      volume         = "35",
+      year           = "2012",
+      pages          = "573-590",
+      doi            = "10.1016/j.astropartphys.2012.01.003",
+      eprint         = "1107.2155",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.IM",
+      SLACcitation   = "%%CITATION = ARXIV:1107.2155;%%"
+}
+
+
+@article{Aprile:2013tov,
+      author         = "Aprile, E. and others",
+      title          = "{The neutron background of the XENON100 dark matter
+                        search experiment}",
+      collaboration  = "XENON100",
+      journal        = "J. Phys.",
+      volume         = "G40",
+      year           = "2013",
+      pages          = "115201",
+      doi            = "10.1088/0954-3899/40/11/115201",
+      eprint         = "1306.2303",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.IM",
+      SLACcitation   = "%%CITATION = ARXIV:1306.2303;%%"
+}
+
+
+
+
+@article{Aprile:2012vw,
+      author         = "Aprile, E. and others",
+      title          = "{Analysis of the XENON100 Dark Matter Search Data}",
+      collaboration  = "XENON100",
+      journal        = "Astropart. Phys.",
+      volume         = "54",
+      year           = "2014",
+      pages          = "11-24",
+      doi            = "10.1016/j.astropartphys.2013.10.002",
+      eprint         = "1207.3458",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.IM",
+      SLACcitation   = "%%CITATION = ARXIV:1207.3458;%%"
+}
+
+@article{run8Result,
+      author         = "Aprile, E. and others",
+      title          = "{Dark Matter Results from 100 Live Days of XENON100
+                        Data}",
+      collaboration  = "XENON100",
+      journal        = "Phys. Rev. Lett.",
+      volume         = "107",
+      year           = "2011",
+      pages          = "131302",
+      doi            = "10.1103/PhysRevLett.107.131302",
+      eprint         = "1104.2549",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.CO",
+      SLACcitation   = "%%CITATION = ARXIV:1104.2549;%%"
+}
+
+@article{xe100_run10_si,
+      author         = "Aprile, E. and others",
+      title          = "{Dark Matter Results from 225 Live Days of XENON100
+                        Data}",
+      collaboration  = "XENON100",
+      journal        = "Phys. Rev. Lett.",
+      volume         = "109",
+      year           = "2012",
+      pages          = "181301",
+      doi            = "10.1103/PhysRevLett.109.181301",
+      eprint         = "1207.5988",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.CO",
+      SLACcitation   = "%%CITATION = ARXIV:1207.5988;%%"
+}
+
+
+@article{xe100_run_combination,
+      author         = "Aprile, E. and others",
+      title          = "{XENON100 Dark Matter Results from a Combination of 477
+                        Live Days}",
+      collaboration  = "XENON100",
+      journal        = "Phys. Rev.",
+      volume         = "D94",
+      year           = "2016",
+      number         = "12",
+      pages          = "122001",
+      doi            = "10.1103/PhysRevD.94.122001",
+      eprint         = "1609.06154",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.CO",
+      SLACcitation   = "%%CITATION = ARXIV:1609.06154;%%"
+}
+
+@article{xe100_run10_sd,
+  title={Limits on spin-dependent WIMP-nucleon cross sections from 225 live days of XENON100 data},
+  Author = {E. Aprile and others},
+  collaboration = {XENON100 collaboration },
+  journal={Physical review letters},
+  volume={111},
+  number={2},
+  pages={021301},
+  year={2013},
+  publisher={APS}
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  STAT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{asympt,
+      author         = "Cowan, Glen and Cranmer, Kyle and Gross, Eilam and
+                        Vitells, Ofer",
+      title          = "{Asymptotic formulae for likelihood-based tests of new
+                        physics}",
+      journal        = "Eur. Phys. J.",
+      volume         = "C71",
+      year           = "2011",
+      pages          = "1554",
+      doi            = "10.1140/epjc/s10052-011-1554-0,
+                        10.1140/epjc/s10052-013-2501-z",
+      note           = "[Erratum: Eur. Phys. J.C73,2501(2013)]",
+      eprint         = "1007.1727",
+      archivePrefix  = "arXiv",
+      primaryClass   = "physics.data-an",
+      SLACcitation   = "%%CITATION = ARXIV:1007.1727;%%"
+}
+
+@inproceedings{cls,
+      author         = "Read, Alexander L.",
+      title          = "{Modified frequentist analysis of search results (The
+                        CL(s) method)}",
+      booktitle      = "{Workshop on confidence limits, CERN, Geneva,
+                        Switzerland, 17-18 Jan 2000: Proceedings}",
+      url            = "http://weblib.cern.ch/abstract?CERN-OPEN-2000-205",
+      year           = "2000",
+      pages          = "81-101",
+      reportNumber   = "CERN-OPEN-2000-205",
+      SLACcitation   = "%%CITATION = CERN-OPEN-2000-205;%%"
+}
+
+@article{Aprile:2011hx,
+      author         = "Aprile, E. and others",
+      title          = "{Likelihood Approach to the First Dark Matter Results
+                        from XENON100}",
+      collaboration  = "XENON100",
+      journal        = "Phys. Rev.",
+      volume         = "D84",
+      year           = "2011",
+      pages          = "052003",
+      doi            = "10.1103/PhysRevD.84.052003",
+      eprint         = "1103.0303",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      SLACcitation   = "%%CITATION = ARXIV:1103.0303;%%"
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%  Superradiance     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@ARTICLE{FirstMeasure,
+   author = {{Rosenberger}, D.},
+    title = "{Superstrahlung in gepulsten argon-, krypton und xenon-entladungen}",
+  journal = {Physics Letters},
+     year = 1965,
+    month = jan,
+   volume = 14,
+    pages = {32-32},
+      doi = {10.1016/0031-9163(65)91037-1},
+   adsurl = {http://adsabs.harvard.edu/abs/1965PhL....14...32R},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%  Came with package %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+@book{griersonRH,
+	Author = {C. Grierson and J. Schiefelbein},
+	Date-Added = {2012-09-27 13:06:21 +0100},
+	Date-Modified = {2012-09-27 13:06:21 +0100},
+	Publisher = {American Society of Plant Biologist},
+	Title = {The Arabidopsis Book},
+	Year = {2002}}
+
+@article{mjones01,
+	Author = {M. Jones and N. Smirnoff},
+	Date-Added = {2012-09-27 13:06:21 +0100},
+	Date-Modified = {2012-09-27 13:06:21 +0100},
+	Journal = {J. of Exp. Bot.},
+	Number = {15},
+	Pages = {4269--4275},
+	Title = {Nuclear dynamics during the simultaneous and sustained tip growth of multiple root hairs arising from a single root epidermal cell},
+	Volume = {57},
+	Year = {2006}}
+
+@article{massuci01,
+	Author = {J. D. Masucci and J. W. Schiefelbein},
+	Date-Added = {2012-09-19 08:40:38 +0100},
+	Date-Modified = {2012-09-25 20:03:04 +0100},
+	Journal = {Plant. Physiol.},
+	Pages = {1335-1346},
+	Title = {The rhd6 Mutation of Arabidopsis thaliana Alters Root-Hair Initiation trhough an Auxin- and Ethylene-Associated Process},
+	Volume = {106},
+	Year = {1994}}
+
+@article{payne01,
+	Author = {R.J.H. Payne and C.S. Grierson},
+	Date-Added = {2011-06-09 15:48:34 +0100},
+	Date-Modified = {2012-03-05 18:44:58 +0100},
+	Journal = {PLoS ONE},
+	Number = {12},
+	Pages = {e8337. doi:10.1371/journal.pone.0008337},
+	Title = {A theoretical model for ROP localisation by auxin in arabidopsis root hair cells},
+	Volume = {4},
+	Year = {2009}}
+
+@article{rigas01,
+	Author = {S. Rigas and G. Debrosses and K. Haralampidis and F. Vicente-Angulo and K. A. Feldman and A. Grabov and L. Dolan and P. Hatzpoulos},
+	Date-Added = {2012-09-19 08:28:34 +0100},
+	Date-Modified = {2012-09-19 08:30:59 +0100},
+	Journal = {The Plant Cell},
+	Pages = {139--151},
+	Title = {TRH1 Encondes a Potassium Transporter REquired for Tip Growth in Arabidopsis Root Hairs},
+	Volume = {13},
+	Year = {2001}}
