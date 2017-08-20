@@ -4,10 +4,10 @@
 % Description: EFT analysis
 %
 \let\textcircled=\pgftextcircled
-\chapter{Search For High Energy Nuclear Recoils in XENON100 Detector}
+\chapter{Effective Field Theory Search For High Energy Nuclear Recoils in XENON100 Detector}
 \label{chap:EFT}
 
-\initial{S}tandard SI,SD analysis concentrate on energy recoils of up to O(10)$\keVr$, hence a hard high energy threshold of is used for them. In XENON100 this threshold value is 43$\keVr$. However SI and SD are not the only types of interactions possible. These new interactions which predicts higher recoil energies are considered in the EFT framework (see ~\ref{sec:intro_EFT}). moreover a WIMP may have several mass states, which will also result in a possible higher energy recoil.  
+\initial{S}tandard SI,SD analysis concentrate on energy recoils of up to O(10)\,$\keVr$, hence a hard high energy threshold of is used for them. In XENON100 this threshold value is 43\,$\keVr$. However SI and SD are not the only types of interactions possible. These new interactions which predicts higher recoil energies are considered in the EFT framework (see ~\ref{sec:intro_EFT}). moreover a WIMP may have several mass states, which will also result in a possible higher energy recoil.  
 	    
 The EFT framework of \cite{Fitzpatrick:2012ib} is constructed at the WIMP-nucleon level and so each operator may be present independently for protons and neutrons, though UV models can of course correlate their couplings. The full EFT thus has 28 coupling parameters in addition to the WIMP mass, plus a mass splitting~$\delta$ in the inelastic case. This parameter space is too large to explore in full, so a similar approach to the SI/SD case is taken, assuming only one active operator at a time, considering it equally coupled to protons and neutrons (the ``isoscalar'' case). 
 
@@ -254,6 +254,20 @@ The high energy likelihood function is defined in Eq.~\ref{eq:HighELikelihood}
 \Llike_{\mathrm{highE}}(c_k^2,\Leff) = \prod_{i} \big( Poiss(n^{obs}_{i}~|~n^{s}_{i} + n^{b}_{i}) \, \times Gauss(\eta^{b}_{i}) \big) ~ \times \Llike_{stat}(\epsilon^{s}_{j},\epsilon^{b}_{i}) \times \Llike^s_{unc}(\Leff, A)
 \end{equation}
 where the product goes over all 9 bins, $\epsilon^{b}_{i}$ is the fraction of background event in \textbf{bin} $i$ and  $\epsilon^{s}_{j}$ is the fraction of AmBe data in \textbf{band} $j$. This means the uncertainty on the signal is assessed per band. $n_i^s = N_{tot}^s(c_k^2,\Leff) \times \zeta_{i,j}^s(\Leff ,\epsilon^{s}_{j})$ is the number of signal events in bin i, $\zeta_{i,j}^s(\Leff, \epsilon^{s}_{j})$ is the fraction of signal events in bin i which is in band j. $n_i^b = N_{tot}^{cal} \times \tau \times \epsilon^{b}_{i}(\eta^{b}_{i})$ is the number of background events in bin i. $\tau$ is the overall normalization of background to data, and is a free parameter.  
+
+\section{Data From Recoil Energies Up To 1000\,PE}
+\label{sec:SuperHighE}
+Upon completing our analysis, we examined data in the \cSi{} region above 180\,PE, up to 1000\,PE, since it will not be analyzed in any future XENON publications. We used the same data selection criteria as those applied for the high-energy channel. These selection criteria are not optimized for the new even-higher energies and may exhibit a drop in acceptance for NRs to below 50\%. Due to the lack of NR calibration data and of a rigorous background model in this energy range, a quantitative and statistically solid inference on dark matter hypotheses is impractical. Nonetheless, we provide a plot of the data here. Figure~\ref{fig:eft_1000} shows the distribution of science data in this extended range (in black) together with NR (in red) and ER calibration data (in blue).
+
+\begin{figure}
+\centerline{\includegraphics[width=1.\linewidth]{fig/superhighE.png}}
+\caption{The full \Xehund{} dark matter science run data up to 1000~PE in \cSi{} (shown in black). In blue we show data from ER calibration ($^{60}$Co and $^{232}$Th) and in red from NR calibration ($^{241}$AmBe). See text for details on these populations. While the black vertical line represents the highest energy considered for quantitative interpretation in this analysis, there is no indication of elastic NRs even above that energy.}
+\label{fig:eft_1000}
+\end{figure}  
+
+The NR calibration data shows the NR band from elastic scattering, with the aforementioned loss of statistics at energies above 180\,PE clearly visible. Also visible are lines in the ER band from the inelastic scattering of neutrons on $^{129}$Xe (39.6keV at 130\,PE) and $^{131}$Xe (80.2keV at 220\,PE) as well as the delayed de-excitation of $^{131m}$Xe (169.3\,keV at 350\,PE) and $^{129m}$Xe (236.1\,keV at 500\,PE). ER calibration data is shown in blue and indicates the distribution of the prevalent background in this energy range. Since the detector is optimized for low-energy events, large S2 pulses saturate the PMT bases. This is visible in the ER band above ~250\,PE.
+
+Finally, data from the dark matter search is shown in black. As can be seen, there is no indication of elastic NRs at energies above those analyzed in this study.
  
 
 
@@ -306,6 +320,15 @@ where $\mu_{\chi,N}$ is the WIMP-nucleon reduced mass. Standard SI analyses assu
 
 In principle a similar comparison can be done between our limit on the $O_4$ coupling and standard SD analysis limits, however this time the standard analyses do {\em not} assume isospin-conserving interactions. Instead they typically assume maximal isospin violation, that is, assuming that WIMPs couple either protons or neutrons. Limits are then derived independently on $\sigma_{p}^\mathrm{SD}$ and $\sigma_{n}^\mathrm{SD}$. Because of this difference in assumptions, our limits on SD couplings are not directly comparable to usual analyses. However, they can be recast under the appropriate alternate model assumptions using the detector response tables we provide in the supplementary material.
 
+\section{Summary}
+In this section I have shown the an analysis of XENON100 data at
+recoil energies above 43 keVnr, with the new high energy
+bound set to 240 keVnr. I considered in this analysis two
+models which predict interactions in this energy region:
+an EFT approach for elastic WIMP-nucleon scattering,
+and a similar EFT approach but considering instead inelastic WIMP-nucleon scattering. The observed data was
+compatible with background expectations, and 90\% CLS
+exclusion limits were constructed for WIMP masses between (10-1000) GeV.
 %
 %%A figures matrix.
 %\begin{figure}[t!]

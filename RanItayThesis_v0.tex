@@ -150,6 +150,7 @@
 % instead of
 % \includegraphics{chapters/brewing/images/figure1}
 \usepackage{import}
+\usepackage{placeins} % floatbarrier definition
 
 % Add other packages needed for chapters here. For example:
 \usepackage{lipsum}					%Needed to create dummy text
@@ -162,7 +163,7 @@
 \usepackage{layouts}					%Layout diagrams
 \usepackage{graphicx}					%Calls figure environment
 \usepackage{longtable,rotating}			%Long tab environments including rotation. 
-\usepackage[applemac]{inputenc}			%Needed to encode non-english characters 
+%\usepackage[applemac]{inputenc}			%Needed to encode non-english characters 
 									%directly for mac
 \usepackage{colortbl}					%Makes coloured tables
 \usepackage{wasysym}					%More math symbols
@@ -178,9 +179,14 @@
 \usepackage{fixltx2e}					%Eliminates some in felicities of the 
 									%original LaTeX kernel
 \usepackage[spanish,english]{babel}		%For languages characters and hyphenation
-\usepackage{color}                    				%Creates coloured text and background
+\usepackage{color}
+\usepackage[utf8]{inputenc}
+                    				%Creates coloured text and background
 \usepackage[colorlinks=true,
-		     allcolors=black]{hyperref}              %Creates hyperlinks in cross references
+		     allcolors=blue,
+		     linktoc=all]{hyperref}              %Creates hyperlinks in cross references
+\hypersetup{linktocpage}
+
 \usepackage{memhfixc}					%Must be used on memoir document 
 									%class after hyperref
 \usepackage{enumerate}					%For enumeration counter
@@ -338,7 +344,13 @@
 \newcommand{\Sii}{\ensuremath{\mathrm{S2}}}
 \newcommand{\cSi}{\ensuremath{\mathrm{cS1}}}
 \newcommand{\cSiib}{\ensuremath{\mathrm{cS2}_\mathrm{b}}}
-\newcommand{\superradiance}{\textit{superradiance }}
+\newcommand{\superradiance}{\textit{superradiance}}
+\newcommand{\Th}{$^{228}\mathrm{Th}$}
+\newcommand{\Cs}{$^{137}\mathrm{Cs}$}
+\newcommand{\CoS}{$^{60}\mathrm{Co}$}
+\newcommand{\CoF}{$^{57}\mathrm{Co}$}
+\newcommand{\cdm}{$\Lambda$--CDM }
+%\newcommand{\Th228}{$^{228}\mathrm{Th}$}
 
 \let\svthefootnote\thefootnote
 \allowdisplaybreaks
@@ -354,7 +366,6 @@
 \definecolor{dkgreen}{rgb}{0,0.6,0}
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
 \definecolor{mauve}{rgb}{0.58,0,0.82}
-
 \lstset{frame=tb,
   language=Python,
   aboveskip=3mm,
@@ -428,6 +439,7 @@
 \import{chapters/Intro/}{Intro.tex}
 \import{chapters/EFT/}{EFT.tex}
 \import{chapters/Direxeno/}{Direxeno.tex}
+\import{chapters/Calibration/}{Calibration.tex}
 \clearemptydoublepage
 
 %
