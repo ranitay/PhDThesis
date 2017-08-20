@@ -245,6 +245,19 @@
       SLACcitation   = "%%CITATION = PRLTA,38,1440;%%"
 }
 
+@article{Jedamzik:2009uy,
+      author         = "Jedamzik, Karsten and Pospelov, Maxim",
+      title          = "{Big Bang Nucleosynthesis and Particle Dark Matter}",
+      journal        = "New J. Phys.",
+      volume         = "11",
+      year           = "2009",
+      pages          = "105028",
+      doi            = "10.1088/1367-2630/11/10/105028",
+      eprint         = "0906.2087",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = ARXIV:0906.2087;%%"
+}
 
 @article{Pospelov:2005pr,
       author         = "Pospelov, Maxim and Ritz, Adam",
@@ -302,6 +315,93 @@
       archivePrefix  = "arXiv",
       primaryClass   = "astro-ph.CO",
       SLACcitation   = "%%CITATION = ARXIV:1704.02297;%%"
+}
+
+@article{PBH,
+author = {Hawking, Stephen},
+title = {Gravitationally Collapsed Objects of Very Low Mass},
+journal = {Monthly Notices of the Royal Astronomical Society},
+volume = {152},
+number = {1},
+pages = {75-78},
+year = {1971},
+doi = {10.1093/mnras/152.1.75}
+}
+
+@article{Carr:2016drx,
+      author         = "Carr, Bernard and Kuhnel, Florian and Sandstad, Marit",
+      title          = "{Primordial Black Holes as Dark Matter}",
+      journal        = "Phys. Rev.",
+      volume         = "D94",
+      year           = "2016",
+      number         = "8",
+      pages          = "083504",
+      doi            = "10.1103/PhysRevD.94.083504",
+      eprint         = "1607.06077",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.CO",
+      reportNumber   = "NORDITA-2016-83",
+      SLACcitation   = "%%CITATION = ARXIV:1607.06077;%%"
+}
+
+@article{MacGibbon:1987my,
+      author         = "MacGibbon, Jane H.",
+      title          = "{Can Planck-mass relics of evaporating black holes close
+                        the universe?}",
+      journal        = "Nature",
+      volume         = "329",
+      year           = "1987",
+      pages          = "308-309",
+      doi            = "10.1038/329308a0",
+      SLACcitation   = "%%CITATION = NATUA,329,308;%%"
+}
+
+@article{Ricotti:2007au,
+      author         = "Ricotti, Massimo and Ostriker, Jeremiah P. and Mack,
+                        Katherine J.",
+      title          = "{Effect of Primordial Black Holes on the Cosmic Microwave
+                        Background and Cosmological Parameter Estimates}",
+      journal        = "Astrophys. J.",
+      volume         = "680",
+      year           = "2008",
+      pages          = "829",
+      doi            = "10.1086/587831",
+      eprint         = "0709.0524",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph",
+      SLACcitation   = "%%CITATION = ARXIV:0709.0524;%%"
+}
+
+
+@article{Milgrom:1983ca,
+      author         = "Milgrom, M.",
+      title          = "{A Modification of the Newtonian dynamics as a possible
+                        alternative to the hidden mass hypothesis}",
+      journal        = "Astrophys. J.",
+      volume         = "270",
+      year           = "1983",
+      pages          = "365-370",
+      doi            = "10.1086/161130",
+      SLACcitation   = "%%CITATION = ASJOA,270,365;%%"
+}
+
+
+@article{Bekenstein:2009bd,
+      author         = "Bekenstein, Jacob D.",
+      title          = "{Relativistic MOND as an alternative to the dark matter
+                        paradigm}",
+      booktitle      = "{Particles and nuclei. Proceedings, 18th International
+                        Conference, PANIC08, Eilat, Israel, November 9-14, 2008}",
+      journal        = "Nucl. Phys.",
+      volume         = "A827",
+      year           = "2009",
+      pages          = "555C-560C",
+      doi            = "10.1016/j.nuclphysa.2009.05.122",
+      note           = "[,937(2009)]",
+      eprint         = "0901.1524",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.CO",
+      SLACcitation   = "%%CITATION = ARXIV:0901.1524;%%"
 }
 
 
