@@ -405,6 +405,129 @@ doi = {10.1093/mnras/152.1.75}
 }
 
 
+@article{Jungman:1995df,
+      author         = "Jungman, Gerard and Kamionkowski, Marc and Griest, Kim",
+      title          = "{Supersymmetric dark matter}",
+      journal        = "Phys. Rept.",
+      volume         = "267",
+      year           = "1996",
+      pages          = "195-373",
+      doi            = "10.1016/0370-1573(95)00058-5",
+      eprint         = "hep-ph/9506380",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "SU-4240-605, UCSD-PTH-95-02, IASSNS-HEP-95-14, CU-TP-677",
+      SLACcitation   = "%%CITATION = HEP-PH/9506380;%%"
+}
+
+@article{Steigman:1984ac,
+      author         = "Steigman, Gary and Turner, Michael S.",
+      title          = "{Cosmological Constraints on the Properties of Weakly
+                        Interacting Massive Particles}",
+      journal        = "Nucl. Phys.",
+      volume         = "B253",
+      year           = "1985",
+      pages          = "375-386",
+      doi            = "10.1016/0550-3213(85)90537-1",
+      reportNumber   = "FERMILAB-PUB-84-110-A, BA-84-33",
+      SLACcitation   = "%%CITATION = NUPHA,B253,375;%%"
+}
+
+@article{Lowette:2016orb,
+      author         = "Lowette, Steven",
+      title          = "{Accelerator searches for new physics in the context of
+                        dark matter}",
+      booktitle      = "{Proceedings, 14th International Conference on Topics in
+                        Astroparticle and Underground Physics (TAUP 2015): Torino,
+                        Italy, September 7-11, 2015}",
+      journal        = "J. Phys. Conf. Ser.",
+      volume         = "718",
+      year           = "2016",
+      number         = "2",
+      pages          = "022011",
+      doi            = "10.1088/1742-6596/718/2/022011",
+      SLACcitation   = "%%CITATION = 00462,718,022011;%%"
+}
+
+
+@inproceedings{Conrad:2014tla,
+      author         = "Conrad, Jan",
+      title          = "{Indirect Detection of WIMP Dark Matter: a compact
+                        review}",
+      booktitle      = "{Interplay between Particle and Astroparticle physics
+                        (IPA2014) London, United Kingdom, August 18-22, 2014}",
+      url            = "http://inspirehep.net/record/1326617/files/arXiv:1411.1925.pdf",
+      year           = "2014",
+      eprint         = "1411.1925",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = ARXIV:1411.1925;%%"
+}
+
+@article{Aguilar:2013qda,
+      author         = "Aguilar, M. and others",
+      title          = "{First Result from the Alpha Magnetic Spectrometer on the
+                        International Space Station: Precision Measurement of the
+                        Positron Fraction in Primary Cosmic Rays of 0.5–350
+                        GeV}",
+      collaboration  = "AMS",
+      journal        = "Phys. Rev. Lett.",
+      volume         = "110",
+      year           = "2013",
+      pages          = "141102",
+      doi            = "10.1103/PhysRevLett.110.141102",
+      SLACcitation   = "%%CITATION = PRLTA,110,141102;%%"
+}
+
+@article{Blum:2013zsa,
+      author         = "Blum, Kfir and Katz, Boaz and Waxman, Eli",
+      title          = "{AMS-02 Results Support the Secondary Origin of Cosmic
+                        Ray Positrons}",
+      journal        = "Phys. Rev. Lett.",
+      volume         = "111",
+      year           = "2013",
+      number         = "21",
+      pages          = "211101",
+      doi            = "10.1103/PhysRevLett.111.211101",
+      eprint         = "1305.1324",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.HE",
+      SLACcitation   = "%%CITATION = ARXIV:1305.1324;%%"
+}
+
+
+@article{Achterberg:2006md,
+      author         = "Achterberg, A. and others",
+      title          = "{First Year Performance of The IceCube Neutrino
+                        Telescope}",
+      collaboration  = "IceCube",
+      journal        = "Astropart. Phys.",
+      volume         = "26",
+      year           = "2006",
+      pages          = "155-173",
+      doi            = "10.1016/j.astropartphys.2006.06.007",
+      eprint         = "astro-ph/0604450",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph",
+      SLACcitation   = "%%CITATION = ASTRO-PH/0604450;%%"
+}
+
+@article{Collaboration:2011nsa,
+      author         = "Ageron, M. and others",
+      title          = "{ANTARES: the first undersea neutrino telescope}",
+      collaboration  = "ANTARES",
+      journal        = "Nucl. Instrum. Meth.",
+      volume         = "A656",
+      year           = "2011",
+      pages          = "11-38",
+      doi            = "10.1016/j.nima.2011.06.103",
+      eprint         = "1104.1607",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.IM",
+      SLACcitation   = "%%CITATION = ARXIV:1104.1607;%%"
+}
+
+
 @article{DeSimone:2016fbz,
       author         = "De Simone, Andrea and Jacques, Thomas",
       title          = "{Simplified models vs. effective field theory approaches

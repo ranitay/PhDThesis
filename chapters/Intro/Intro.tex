@@ -14,10 +14,11 @@ In the 1930s the Swiss astronomer Fritz Zwicky observed that the mass of the clu
 In the past decade many experiments joined the hunt for DM detection, and the field has progressed dramatically. These experiments can be divided
 roughly into three groups, underground direct detection experiments such as XENON~\cite{xe100_run_combination,Xenon1TResults}, LUX~\cite{LUXnew}, PANDAX~\cite{PANDAX}, CDMS~\cite{CDMSlite}, DAMA/LIBRE~\cite{DAMA} and others , indirect detection in space (FERMI~\cite{FermiLAT:2011ab}, AMS~\cite{AMS}) and on earth (IceCube~\cite{IceCube}), and production experiments in accelerators such as ATLAS~\cite{AtlasDM} and CMS~\cite{CmsDM} at the Large Hadron Collider.
 \section{Evidence for the Existence Of Dark Matter}
+\label{sec:Evidence}
 An extensive amount of observations pointing to the presence of DM at the  single galaxy, inter-galactic and cosmological scales, are present. In this section a brief summary of these observation is presented. 
 
 \subsection{Virial Theorem}
-
+\label{subsec:virial}
 The virial theorem relates the average potential energy density $\left\langle V_p \right\rangle$ of a stationary gravitationally bound system to its mean kinetic energy density $\left\langle T_k \right\rangle $, namely:
 \begin{equation}
 \left\langle T_k \right\rangle  =-\frac{1}{2}\left\langle V_p \right\rangle.
@@ -32,7 +33,7 @@ The hot plasma bounded by the gravitational potential of the cluster emits brems
 
 
 \subsection{Galactic Rotation Curves}
-
+\label{subsec:RotCurve}
 The orbital velocity as a function of radius (rotation curve) can be obtained from the measurement of the redshifts of the 1420\,MHz hydrogen transition~\cite{Begeman:1991iy} as well as of spectral lines from stars. The hydrogen cloud extends beyond the galactic disk, allowing the measurement of orbital velocities further out. By measuring the rotation curve of galaxies it is possible to compute their mass profile ($\textrm{M}(r)$).
 
 In 1970 Vera Rubin found a disagreement in the mass profile calculated by the rotation curves and the one expected from luminouse mattter in NGC4605 spiral galaxy~\cite{Rubin:1980zd}. This disagreement can be solved, assuming additional non-visible mass enhancing the gravitational forces.
@@ -76,7 +77,7 @@ One of the predictions of general relativity is that trajectory of light in spac
 %        \caption{a CAD design of the collimator with the conical hole.}
         \label{subfig:QSO}}
     \end{minipage} 
-    \caption{ (a) Hubble Space Telescope Advanced Camera for Surveys image of the lensing cluster Abell 1689. Image credit: ESA/Hubble. (b) QSO-2237 quaser lensed image, creating both einstein's arcs and cross. Image credit: CASTLES \label{fig:StrongLens}}
+    \mycaption[Strong lensing]{ (a) Hubble Space Telescope Advanced Camera for Surveys image of the lensing cluster Abell 1689. Image credit: ESA/Hubble. (b) QSO-2237 quaser lensed image, creating both einstein's arcs and cross. Image credit: CASTLES \label{fig:StrongLens}}
 \end{figure}
 
 Two important features are concuded when analyzing the mass profile of the "lens": 1) DM and ordinary matter are not misaligned~\cite{Ferreras:2007na}. 2) The mass profile follows $\rho(r)\propto r^{-2}$ dispersion ratio~\cite{Gavazzi:2007vw}. 
@@ -164,28 +165,151 @@ Although MOND and TeVeS can explain some phenomena which are hard to explain in 
 \subsection{Weakly Interacting Massive Particles}
 \label{subsec:WIMP}
 
-In order to solve the DM problem it seems natural to extent the matter content in the SM. Ideally a good DM particle candidate, apart from being electromagnetically neutral, should be non-baryonic and stable over the age of the Universe resulting in the correct abundance starting from thermal reactions in the early stage of space and time.
+In order to solve the DM problem it seems natural to extent the matter content in the SM. Ideally a good DM particle candidate, apart from being electromagnetically neutral, should be non-baryonic and stable over the age of the Universe resulting in the correct abundance starting from thermal reactions in the early stage of space and time. The generic idea of a weakly
+interacting massive particle (WIMPs), has become one of the most favored dark
+matter candidates~\cite{Steigman:1984ac}.
 
 Freeze-out is an appealing mechanism to generate a fixed amount of a specific matter. It is already successfully explained photon decoupling (CMB) and the production of nuclei (BBN). At early stages of the Universe it was hot and dense and particles were in chemical equilibrium between creation and annihilation reactions between various particles and radiation types. DM particles $\chi$ could transform into other SM particles by co-annihilation, or be produced from the same process in SM particles.  
 \begin{equation}
 \chi\bar{\chi} \Leftrightarrow f\bar{f}, W^+W^-, HH, ...
 \end{equation}
 
-The annihilation rate is determined by $R_{ann} = \left<\sigma_{ann}v \right>n$ where $\sigma_{ann}$ is the thermal average of the self-interaction cross section, $v$ and $n$ are the relative velocity and number density of DM particles respectively. For the creation process, the available kinetic energy of colliding particles must exceed the mass threshold of generating a $\chi\bar{\chi}$ pair. During equilibrium the energy distribution is assumed to be thermalized and follow a Maxwell-Boltzmann distribution $e^{E/K_BT}$. When the Universe expanded enough, the temperature dropped and collision of SM particles were not energetic enough the create DM $\chi\bar{\chi}$ pairs, causing the number density of DM to decrease faster then SM particles. At some point the Universe expansion rate became larger than DM annihilation rate causing the number density of DM to freeze-out. 
+The annihilation rate is determined by $R_{ann} = \left<\sigma_{ann}v \right>n$ where $\sigma_{ann}$ is the thermal average of the self-interaction cross section, $v$ and $n$ are the relative velocity and number density of DM particles respectively. For the creation process, the available kinetic energy of colliding particles must exceed the mass threshold of generating a $\chi\bar{\chi}$ pair. During equilibrium the energy distribution is assumed to be thermalized and follow a Maxwell-Boltzmann distribution $e^{E/K_BT}$. When the Universe expanded enough, the temperature dropped and collision of SM particles were not energetic enough the create DM $\chi\bar{\chi}$ pairs, causing the number density of DM to decrease faster then SM particles. At some point the Universe expansion rate became larger than DM annihilation rate causing the number density of DM to freeze-out. This moment in time, defines the exact number of DM particles inside a comoving volume. The time-evolution of the number density as a function of $1/T$ (proportional to the time passed from equilibrium) is illustrated in Fig.~\ref{fig:WIMP_Miracle}).
 
-%TODO Im here
-
-%This
-%moment defines the persisting particle number inside a comoving volume. The evolution is illustrated
-%in Fig. 1.5, where the number density is drawn as a function of 1{T, proportional to the time passed
-%after perfect equilibrium. From the detailed calculation of the abundance evolution, the freeze out
-%temperature (in units of energy or mass) is expected around T f  mχ{20, as 
 \begin{figure}[]
 	\centering
 	\includegraphics[width=0.6\textwidth]{figs/WIMP_Miracle.jpg}
 	\mycaption[WIMP freeze out] {Evolution of the dark matter number density 		as a function of mass over temperature in the universe (proportional to increasing time after the Big Bang). Different assumed annihilation cross-sections $\sigma_{ann}$ lead to differing relic dark matter number densities. Image taken from~\cite{Jungman:1995df}}
-	\label{fig:CMB}
+	\label{fig:WIMP_Miracle}
 \end{figure}  
+
+From calculation of the DM particles abundance, the freeze out temperature is estimated to be $T_{fo} \approx m_{\chi} / 20$. The number density after freeze-out depends strongly on the co-annihilation rate and decreases for larger values of $\left<\sigma_{ann}v\right>$. Assuming \cdm\ description of the Universe evolution, The current relic abundance for DM $\Omega_{\chi} h^2$ can be simplified to:
+\begin{equation}
+\label{eq:wimp}
+\Omega_\chi h^2 \approx \frac{3\times10^{-27}cm^3s^{-1}}{\left<\sigma_{ann}v\right>}.
+\end{equation}   
+
+Equation~\ref{eq:wimp} yields that a the co-annihilation cross section is $\sim 10^{-26}$, which is typical for the electroweak scale, where it is expected to find new physics. This great coincidence is called the \textit{The WIMP Miracle}.
+
+In several extension of the SM such as Super Symmetry, a particle candidate with such properties arise naturally. The motivation from cosmology along with the ones from particle physics have promoted the WIMP to be the the leading class of DM candidates.   
+
+\section{Dark Matter Detection}
+\label{sec:DMDet}
+
+The extensive amount of convincing evidence explained in~\ref{sec:Evidence} lead to world race towards the detection of DM. There are three main channels to probe DM interaction, a schematic of which is shown in Fig~\ref{fig:detectionScheme}.
+
+\begin{figure}[]
+	\centering
+	\includegraphics[width=0.6\textwidth]{figs/detection_channels.png}
+	\mycaption[DM detection channels] {A schematics of the potential channels for DM detection.}
+	\label{fig:detectionScheme}
+\end{figure}  
+
+\subsection{Colliders detection}
+\label{subsec:collider}
+
+WIMPS can be produced by the energetic collision of two SM particles (e.g., $q\bar{q}$, $ee^+$). The signature expected for such process include quark jets, leptons, but more importantly missing transverse momentum carried away by the undetectable produced DM particle. So far all searches of colliders have ended up with null results~\ref{fig:ColliderLimit}.  
+
+Even upon detection, the full nature of DM cannot be probed in collider experiment as they cannot prove stability byond the traveling time in the detector, a key ingredient for WIMPs. Moreover the compression between collider results and direct detection ones, is not trivial, and can be done only in a model dependent way.
+\begin{figure}[]
+	\centering
+	\includegraphics[width=\textwidth]{figs/ColliderLimit.png}
+	\mycaption[Limits on DM from the LHC] {90\%CL upper limits on the DM-nucleon scattering cross section, from the monojet, monophoton, and mono-Z searches, as a function of the DM mass.left (right) Spin-independent (spin-dependent) interaction. Several interaction types and dark-matter particle natures are considered~\cite{Lowette:2016orb}.}
+	\label{fig:ColliderLimit}
+\end{figure}  
+
+\subsection{Indirect Detection Search}
+\label{subsec:indirect}
+Indirect detection refers to a technique that uses astronomical observations
+of Standard Model (SM) particles to detect the products of the co-annihilation or decay of dark matter in our Galaxy and throughout the Universe. The total number of dark-matter particles does not change significantly after freeze-out in the early universe, but their spatial distribution changes considerably during structure formation. 
+
+The signals in indirect searches are SM products of the dark matter annihilation and decay process. most channels result immediately in unstable SM particles which quickly decay and hadronize into stable states. Stable states include photons, neutrinos, electrons and positrons, protons antiprotons, and heavier nuclei and anti-nuclei. For a thorough review on indirect detection searches see~\cite{Conrad:2014tla}.
+
+\subsubsection{$\gamma$-ray channel}
+
+$\gamma$-ray channel can be produced from WIMP annihilation in various ways: the annihilation into quarks and gauge bosons resulting in a continuous spectrum; direct annihilation to $\gamma$-rays and virtual internal bremsstrahlung resulting in spectral features, which constitute a smoking-gun signal that cannot be explained without DM.
+
+These expected signals are overlaid with background coming from conventional astrophysical sources. In WIMP mass between O(100\,MeV) -- O(100\,GeV), pair-conversion telescopes on satellites (e.g., Fermi Large Area Telescope) are most sensitive. For WIMP mass above $\sim 10$\,GeV Imaging Air Cherenkov Telescopes (e.g., HESS, MAGIC, VERITAS) become more sensitive.
+
+\subsubsection{Charge Cosmic Rays}
+
+In this channel the main signature for DM is in the anti-proton and positron flux. As anti-particles are  only produced seldom, even a small addition of WIMP annihilation produced anti-particles is detectable. The signal reveals itself as a rise in the ratio of particle anti-particle flux (e.g., $e/e^+$). Measuring the ration also reduces the systematics of the measurment.  
+
+The leading experiment in this channel is AMS-02 which detected a rise in the positron flux in 2013~\cite{Aguilar:2013qda} and in 2016 released a press note with claims of a signal of WIMPs with mass of 1\,TeV (see Fig.~\ref{fig:AMS}). These results can be explained also by other ways~\cite{Blum:2013zsa} and are not officially reported yet. 
+
+\begin{figure}[]
+	\centering
+	\includegraphics[width=0.8\textwidth]{figs/AMS02.png}
+	\mycaption[AMS-02 observetaion of a 1TeV WIMP] { The current AMS positron flux measurement compared with theoretical models. The green line represents the expected flux of positrons from cosmic rays collisions with interstellar material, the red line is the expected spectrum of a 1\,TeV WIMP, and the light red data points are the observed flux.}
+	\label{fig:AMS}
+\end{figure}  
+
+\subsubsection{Neutrino Channel}
+
+DM can be trapped in celestial bodies such as stars and planets by their gravitational well. This results in an enhanced DM population near the center of these objects. As a consequence the annihilation rate of DM inside stars is substantially larger. All the produced particles will thermalize except for the neutrinos which will escape and can be detected by neutrino detectors such as IceCube~\cite{Achterberg:2006md} and ANTARES~\cite{Collaboration:2011nsa} which sets currently the strongest limits from this channel.
+
+\subsection{Direct Detection Search}
+\label{subsec:directdetection}
+
+This search channel refers to measuring the interaction between WIMPs and SM particles. Experiments trying to observe WIMP interaction through this channel (e.g., XENON, LUX, ArDM, CDMS and more) are situated in underground laboratories. The various detection strategies as well as relevant calculations are presented in in the following sections.
+
+\subsubsection{Interaction Rate}
+If Earth is moving through the galactic halo, a large number of WIMPs are expected to pass through any terrestrial detector. The rate of interactions per unit mass on a target is:
+\begin{equation}
+dR = \frac{N_0}{A}\sigma v dn(v),
+\end{equation} 
+where $A$ is the atomic mass of the target, $\sigma$ is the cross section, $N_0$ is Avogadro number. The differential particle density $dn(v)$ is
+\begin{equation}
+dn(v) = \frac{\rho_{\chi}}{m_{\chi}} f(v,v_E)d^3 v,
+\end{equation}
+where $v$ is the WIMP velocity in the detector rest frame, $v_E$ is the Earth velocity in the galactic rest frame, and $f(v,v_E)$ is the WIMP velocity distribution usually assumed to be a Maxwell-Boltzmann distribution
+\begin{equation}
+f(v,v_E) = exp\left(\frac{-(v+v_E)^2}{\sigma_v ^2}\right),
+\end{equation} 
+where $\sigma_v$ is the WIMP speed dispersion. The normalization factor $k$ is defined such that
+\begin{equation}
+\int_0^{v_{esc}} dn \equiv \frac{\rho_\chi}{m_\chi} 
+\end{equation}
+yielding,
+\begin{equation}
+k = \int_0^{2\pi}d\phi \int_{-1}^1d(\cos(\theta)) \int_0^{v_{esc}} exp\left(\frac{-(v+v_E)^2}{\sigma_v ^2}\right),
+\end{equation}
+where $v_esc$ is the  local galactic escape velocity. Standard values for the velocity distribution parameters are:
+\begin{equation}
+\sigma_v = 230\mathrm{km/s}, \qquad v_{esc} = 600\mathrm{km/s} \rightarrow k \approx (\pi \sigma_v^2)^{3/2}
+\end{equation} 
+
+The recoil energy of a nucleus stroke by a DM particle with kinetic energy $E = \frac{1}{2}M_\chi v^2$ scattered at an angle $\theta$ is: $E_R = E_0r(1-\cos(\theta))/2$ where $r \equiv \frac{4M_\chi M_N}{(M_\chi + M_N)^2}$. Assuming isotropic scattering the recoils are distributed uniformly in $E_R$, where $0 \leq E_R \leq E_0 r$; therefore
+\begin{equation}
+\frac{dR}{dE_R} = \int_{E_{min}}^{E_{max}} \frac{1}{E_0 r}dR(E) = \frac{1}{E_0r}\int_{v{min}}^{v_{max}}\frac{\sigma^2}{v^2}dR(v),
+\end{equation} 
+where $E_{min}$ is the smallest possible recoil energy and $v_{min}$ is its corresponding velocity For a more comprehensive treatment of the WIMP interaction rate see~\cite{LEWIN}.
+
+
+\subsubsection{WIMP Nucleus Interaction Cross Section}
+\label{subsubsec:WIMP_CS}
+
+WIMPs are charged under the weak force, hence they will interact with matter via weak-interaction. The cross section for zero momentum transfer is traditionally modeled as: $\sigma_0 = 4G^2_F\mu_N^2C$, where $G_F = 1.1\times 10^{-5}\,GeV/(\hslash c)^3$ is the Fermi constant, $\mu_N$ is the WIMP-target reduced mass, and $C$ is an enhancment factor which is determined by the nature of the WIMP. $C$ is different for different types of interactions. The \textit{standard} interaction types treated in direct detection experiments are the spin-dependent (SD) and spin-independent (SI) which are reviewed in this section. A discussion on other types of motivated interactions (e.g., spin-orbit) see Sec,\ref{sec:intro_EFT}.
+
+For the SI case the enhancement factor is modeled as:
+\begin{equation}
+C_{SI} = \frac{1}{\pi G_F^2}[Zf_p + (A-Z)f_n]^2,
+\end{equation} 
+where $f_p$ and $f_n$ are the effective WIMP-proton, WIMP-neutron coupling respectively. This type of growth as $A^2$, and favors heavy targets. This type of interaction can appear due to axial currents.
+\begin{equation}
+\mathcal{L} \supset \alpha_q^S \bar{\chi} \chi \bar{q}q + \alpha_q^V\bar{\chi}\gamma_\mu\chi\bar{q}\gamma^\mu q.  
+\end{equation}
+
+In the SD case, the scattering amplitude changes sign with the spin orientation; hence, only isotopes with odd number of protons  or neutrons canbe used for detection. The enhancement factor is modeled as:
+\begin{equation}
+C_{SD} = \frac{8}{\pi J}[a_p\left<S_p\right> + a_n\left<s_n\right>]J(J+1).
+\end{equation}  
+$a_p$ and $a_n$ are the WIMP-proton and WIMP-neutrom effective coupling respectively,$\left<S_p\right>$ and  $\left<S_n\right>$ are the proton and neutron spin, and $J$ is the total nuclear spin. This type of interaction can appear due to vector currents such as:
+\begin{equation}
+\mathcal{L} \supset \alpha_q(\bar{\chi}\gamma_\mu\gamma_5\chi)(\bar{q}\gamma^\mu\gamma_5q)
+\end{equation}
+\subsubsection{Form Factors}
+
 
 %%======
 \section{Non Linear Emission of Radiation in Liquid Xenon}
