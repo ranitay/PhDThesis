@@ -528,6 +528,22 @@ doi = {10.1093/mnras/152.1.75}
 }
 
 
+@article{Feldstein:2009tr,
+      author         = "Feldstein, Brian and Fitzpatrick, A. Liam and Katz,
+                        Emanuel",
+      title          = "{Form Factor Dark Matter}",
+      journal        = "JCAP",
+      volume         = "1001",
+      year           = "2010",
+      pages          = "020",
+      doi            = "10.1088/1475-7516/2010/01/020",
+      eprint         = "0908.2991",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = ARXIV:0908.2991;%%"
+}
+
+
 @article{DeSimone:2016fbz,
       author         = "De Simone, Andrea and Jacques, Thomas",
       title          = "{Simplified models vs. effective field theory approaches
