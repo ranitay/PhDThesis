@@ -3,6 +3,43 @@
 
 %% Saved with string encoding Unicode (UTF-8) 
 %%%%%%%%%%%%%%%%%%%%%%%%%% Intro papers %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@article{stim,
+author = { Frederick H.   Mies },
+title = {Stimulated emission and population inversion in diatomic bound-continuum transitions},
+journal = {Molecular Physics},
+volume = {26},
+number = {5},
+pages = {1233-1246},
+year = {1973},
+doi = {10.1080/00268977300102431},
+
+URL = { 
+        http://dx.doi.org/10.1080/00268977300102431
+    
+},
+eprint = { 
+        http://dx.doi.org/10.1080/00268977300102431
+    
+}
+
+}
+
+
+@article{Gross1982301,
+title = "Superradiance: An essay on the theory of collective spontaneous emission ",
+journal = "Physics Reports ",
+volume = "93",
+number = "5",
+pages = "301 - 396",
+year = "1982",
+note = "",
+issn = "0370-1573",
+doi = "https://doi.org/10.1016/0370-1573(82)90102-8",
+url = "http://www.sciencedirect.com/science/article/pii/0370157382901028",
+author = "M. Gross and S. Haroche",
+abstract = "This essay presents a theoretical description of the superradiance phenomenon, in which both the quantal and the classical aspects are discussed. Starting from the simple two-level atom-small sample Dicke model, we successively introduce various complications inherent to a realistic superradiance experiment: effects of Van der Waals interaction between the atoms, propagation and diffraction of the electromagnetic field in the sample and finally the effects related to atomic level degeneracy or near degeneracy. We recall how to calculate the field radiated by a superradiant system in a single experiment and how to determine, for a series of identically prepared superradiant samples, the large shot to shot fluctuations of the emitted light properties. The presentation tries to unify various points of view and formalisms developed in previous works and to introduce simply and progressively the basic physical concepts relevant to the superradiance phenomenon. "
+}
+
 @article{Zwicky:1937zza,
       author         = "Zwicky, F.",
       title          = "{On the Masses of Nebulae and of Clusters of Nebulae}",
@@ -726,6 +763,22 @@ doi = {10.1093/mnras/152.1.75}
       SLACcitation   = "%%CITATION = NUPHZ,173,172;%%"
 }
 
+@article{Lewis:2002mfa,
+      author         = "Lewis, Aaron D. and Buote, David A. and Stocke, John T.",
+      title          = "{Chandra observations of Abell 2029: The Dark matter
+                        profile at < 0.01 R(VIR) in an unusually relaxed cluster}",
+      journal        = "Astrophys. J.",
+      volume         = "586",
+      year           = "2003",
+      pages          = "135-142",
+      doi            = "10.1086/367556",
+      eprint         = "astro-ph/0209205",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph",
+      SLACcitation   = "%%CITATION = ASTRO-PH/0209205;%%"
+}
+
+
 @article{Deaconu:2017vam,
       author         = "Deaconu, Cosmin and Leyton, Michael and Corliss, Ross and
                         Druitt, Gabriela and Eggleston, Richard and Guerrero,
@@ -785,7 +838,6 @@ doi = {10.1093/mnras/152.1.75}
       volume         = "D64",
       year           = "2001",
       pages          = "043502",
-      doi            = "10.1103/PhysRevD.64.043502",
       eprint         = "hep-ph/0101138",
       archivePrefix  = "arXiv",
       primaryClass   = "hep-ph",
@@ -807,6 +859,113 @@ doi = {10.1093/mnras/152.1.75}
       reportNumber   = "MCTP-09-42",
       SLACcitation   = "%%CITATION = ARXIV:0908.3192;%%"
 }
+
+@article{Hiraide:2016ryf,
+      author         = "Hiraide, Katsuki and Collaboration, On Behalf Of The
+                        Xmass",
+      title          = "{Recent results of direct dark matter search with XMASS}",
+      booktitle      = "{Proceedings, 38th International Conference on High
+                        Energy Physics (ICHEP 2016): Chicago, IL, USA, August
+                        3-10, 2016}",
+      collaboration  = "XMASS",
+      journal        = "PoS",
+      volume         = "ICHEP2016",
+      year           = "2016",
+      pages          = "213",
+      SLACcitation   = "%%CITATION = POSCI,ICHEP2016,213;%%"
+}
+
+@article{Akerib:2012ys,
+      author         = "Akerib, D. S. and others",
+      title          = "{The Large Underground Xenon (LUX) Experiment}",
+      collaboration  = "LUX",
+      journal        = "Nucl. Instrum. Meth.",
+      volume         = "A704",
+      year           = "2013",
+      pages          = "111-126",
+      doi            = "10.1016/j.nima.2012.11.135",
+      eprint         = "1211.3788",
+      archivePrefix  = "arXiv",
+      primaryClass   = "physics.ins-det",
+      SLACcitation   = "%%CITATION = ARXIV:1211.3788;%%"
+}
+
+@article{Cao:2014jsa,
+      author         = "Cao, XiGuang and others",
+      title          = "{PandaX: A Liquid Xenon Dark Matter Experiment at CJPL}",
+      collaboration  = "PandaX",
+      journal        = "Sci. China Phys. Mech. Astron.",
+      volume         = "57",
+      year           = "2014",
+      pages          = "1476-1494",
+      doi            = "10.1007/s11433-014-5521-2",
+      eprint         = "1405.2882",
+      archivePrefix  = "arXiv",
+      primaryClass   = "physics.ins-det",
+      SLACcitation   = "%%CITATION = ARXIV:1405.2882;%%"
+}
+
+
+@article{Zani:2014lea,
+      author         = "Zani, Andrea",
+      title          = "{The WArP Experiment: A Double-Phase Argon Detector for
+                        Dark Matter Searches}",
+      journal        = "Adv. High Energy Phys.",
+      volume         = "2014",
+      year           = "2014",
+      pages          = "205107",
+      doi            = "10.1155/2014/205107",
+      SLACcitation   = "%%CITATION = 00642,2014,205107;%%"
+}
+
+@article{Rubbia:2005ge,
+      author         = "Rubbia, Andre",
+      title          = "{ArDM: A Ton-scale liquid Argon experiment for direct
+                        detection of dark matter in the universe}",
+      booktitle      = "{TAUP 2005. Proceedings, 9th International Conference on
+                        topics in astroparticle and underground physics, Zaragoza,
+                        September 10, 2005}",
+      journal        = "J. Phys. Conf. Ser.",
+      volume         = "39",
+      year           = "2006",
+      pages          = "129-132",
+      doi            = "10.1088/1742-6596/39/1/028",
+      eprint         = "hep-ph/0510320",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = HEP-PH/0510320;%%"
+}
+
+
+@article{Akerib:2016mzi,
+      author         = "Akerib, D. S. and others",
+      title          = "{Low-energy (0.7-74 keV) nuclear recoil calibration of
+                        the LUX dark matter experiment using D-D neutron
+                        scattering kinematics}",
+      collaboration  = "LUX",
+      year           = "2016",
+      eprint         = "1608.05381",
+      archivePrefix  = "arXiv",
+      primaryClass   = "physics.ins-det",
+      SLACcitation   = "%%CITATION = ARXIV:1608.05381;%%"
+}
+
+@article{Alexander:2013hia,
+      author         = "Alexander, T. and others",
+      title          = "{DarkSide search for dark matter}",
+      booktitle      = "{Proceedings, LIght Detection In Noble Elements
+                        (LIDINE2013): Batavia, USA, May 29-31, 2013}",
+      collaboration  = "DarkSide",
+      journal        = "JINST",
+      volume         = "8",
+      year           = "2013",
+      pages          = "C11021",
+      doi            = "10.1088/1748-0221/8/11/C11021",
+      reportNumber   = "FERMILAB-CONF-13-654-AE-E",
+      SLACcitation   = "%%CITATION = JINST,8,C11021;%%"
+}
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%% Xenon Properties %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 @article{AGOSTINELLI2003250,
 title = "Geant4 a simulation toolkit",
@@ -1017,6 +1176,27 @@ author = "S. Agostinelli and others",
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Xenon papers %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@article{Aprile:2017aas,
+      author         = "Aprile, E. and others",
+      title          = "{Effective field theory search for high-energy nuclear
+                        recoils using the XENON100 dark matter detector}",
+      collaboration  = "XENON",
+      year           = "2017",
+      eprint         = "1705.02614",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.CO",
+      SLACcitation   = "%%CITATION = ARXIV:1705.02614;%%"
+}
+@article{Aprile:2017aty,
+      author         = "Aprile, E. and others",
+      title          = "{The XENON1T Dark Matter Experiment}",
+      collaboration  = "XENON",
+      year           = "2017",
+      eprint         = "1708.07051",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.IM",
+      SLACcitation   = "%%CITATION = ARXIV:1708.07051;%%"
+}
 
 @article{Xenon1TResults,
       author         = "Aprile, E. and others",
@@ -1177,7 +1357,21 @@ author = "S. Agostinelli and others",
   publisher={APS}
 }
 
-
+@article{Angle:2007uj,
+      author         = "Angle, J. and others",
+      title          = "{First Results from the XENON10 Dark Matter Experiment at
+                        the Gran Sasso National Laboratory}",
+      collaboration  = "XENON",
+      journal        = "Phys. Rev. Lett.",
+      volume         = "100",
+      year           = "2008",
+      pages          = "021303",
+      doi            = "10.1103/PhysRevLett.100.021303",
+      eprint         = "0706.0039",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph",
+      SLACcitation   = "%%CITATION = ARXIV:0706.0039;%%"
+}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  STAT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

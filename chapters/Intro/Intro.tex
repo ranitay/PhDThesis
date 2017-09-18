@@ -90,7 +90,7 @@ The most famous weak lensing evidence for DM comes from the "Bullet Cluster", a 
 	\centering
 	\includegraphics[width=0.8\textwidth]{figs/bulletCluster.jpg}
 	\mycaption[Bullet Cluster]{Contours of spatial distribution of mass, from gravitational lensing overplotted over Chandra x-ray data that traces hot plasma in a galaxy. It can be seen that most of the matter resides in a location different from the plasma, which underwent frictional interactions during the merger and slowed down.}
-	\label{fig:emissionType}
+	\label{fig:Bullet}
 \end{figure}  
 
 
@@ -328,9 +328,9 @@ where $\sigma_0$ is the zero-momentum transfer cross section, and $F(qr_n$ is th
 
 Finally the total event rate as a function of recoil-energy is given by:
 \begin{equation}
-\frac{dR}{dE_R} = \frac{\rho_\chi}{M_TM_\chi}\int_{v>v_{min}}^{v_{esc}}d^3v\cdot \frac{d\sigma_i}{dE_R}\cdot F_i^2f(v,v_E)v
+\frac{dR}{dE_R} = \frac{\rho_\chi}{M_TM_\chi}\int_{v>v_{min}}^{v_{esc}}d^3v\cdot \frac{d\sigma_i}{dE_R}\cdot F_i^2(q^2)f(v,v_E)v
 \end{equation} 
-Where the astrophysical input are incorporated in the first and last terms. The particle and nuclear physics is incorporated in the $\sigma_i$ and $F^2_i$ are the the cross section and form factor for interaction type $i$ respectively. In Fig.~\ref{fig:interactionRate}, is an example of the interaction rate for various elements.
+Where the astrophysical input are incorporated in the first and last terms. The particle and nuclear physics is incorporated in the $\sigma_i$ and $F^2_i(q^2)$ are the the cross section and form factor for interaction type $i$ respectively. In Fig.~\ref{fig:interactionRate}, is an example of the interaction rate for various elements.
 
 \begin{figure}[t!]
 	\centering
@@ -343,7 +343,7 @@ target materials, for a WIMP mass of $m_\chi= 100$\,GeV, assuming SI cross secti
 \section{Effective Field Theory Approach for WIMP-Nucleolus Scattering}
 \label{sec:intro_EFT}
 
-The traditional approach for computing predictions of the rate of WIMP-nucleon scattering has been to take only leading-order terms in a WIMP-nucleon effective field theory (EFT) with a very simple treatment of nuclear structure~\cite{LEWIN}. This leads to two main types of interactions, which are commonly labelled ``Spin Independent'' (SI) and ``Spin Dependent'' (SD). However, in recent years many authors have pointed out that in certain theories these interactions may be suppressed or nonexistent, such that otherwise subleading interactions may dominate the scattering process~\cite{Chang:2009yt}. To account for this possibility in a systematic way, a more sophisticated EFT approach has been developed ~\cite{Fitzpatrick:2012ib,Anand:MathTools,Fitzpatrick:MathTools}. In the new approach, an effective Lagrangian describing the WIMP-nucleus interaction is constructed, that takes into account all Galilean-invariant operators up to second order in the momentum exchange. This framework introduces new operators associated with different types of nuclear responses, along with the standard SI and SD ones, resulting in a set of fourteen operators $\mathcal{O}_i$ which may couple independently to protons and neutrons. In Eqs. (\ref{eq:OpDef}) we list these operators following the convention from~\cite{Anand:MathTools}. The operators depend explicitly on 4 linearly independent quantities: $\vec{v}^{\perp} \equiv \vec{v} + \frac{\vec{q}}{2\mu_N} $, the relative perpendicular velocity between the WIMP and the nucleon, $\vec{q}$, the momentum transferred in the scattering event, and $\vec{S}_\chi$, $\vec{S}_N$, the WIMP and nucleon spins. $\mathcal{O}_2$ is not considered here as it cannot be obtained from a relativistic operator at leading order.
+The traditional approach for computing predictions of the rate of WIMP-nucleon scattering has been to take only leading-order terms in a WIMP-nucleon effective field theory (EFT) with a very simple treatment of nuclear structure~\ref{subsubsec:WIMP_CS}. This leads to two main types of interactions, which are commonly labelled SI and SD. However, in recent years many authors have pointed out that in certain theories these interactions may be suppressed or nonexistent, such that otherwise subleading interactions may dominate the scattering process~\cite{Chang:2009yt}. To account for this possibility in a systematic way, a more sophisticated EFT approach has been developed ~\cite{Fitzpatrick:2012ib,Anand:MathTools,Fitzpatrick:MathTools}. In the new approach, an effective Lagrangian describing the WIMP-nucleus interaction is constructed, that takes into account all Galilean-invariant operators up to second order in the momentum exchange. This framework introduces new operators associated with different types of nuclear responses, along with the standard SI and SD ones, resulting in a set of 14 operators $\mathcal{O}_i$ which may couple independently to protons and neutrons. In Eqs. (\ref{eq:OpDef}) we list these operators following the convention from~\cite{Anand:MathTools}. The operators depend explicitly on four linearly independent quantities: $\vec{v}^{\perp} \equiv \vec{v} + \frac{\vec{q}}{2\mu_N} $; the relative perpendicular velocity between the WIMP and the nucleon; $\vec{q}$, the momentum transferred in the scattering event; and $\vec{S}_\chi$ and $\vec{S}_N$, the WIMP and nucleon spins. $\mathcal{O}_2$ is not considered here as it cannot be obtained from a relativistic operator at leading order.
 %
 
 \begingroup
@@ -377,32 +377,82 @@ The traditional approach for computing predictions of the rate of WIMP-nucleon s
 \end{align}
 \endgroup
 
-Unlike the more commonly studied types of interaction (SI,SD), which are not suppressed when $\vec{q} \rightarrow 0$ and for which the scattering rate on nucleons is expected to be largest for low energy nuclear recoils, some of the new EFT operators depend explicitly on $\vec{q}$ and so their interaction cross section is suppressed for low momentum transfers. Consequently, their scattering rate peaks at non-zero nuclear recoil energy. For sufficiently high WIMP masses, this may even occur outside typical analysis windows, which usually have an upper range of around $ 43\,\keVr$ (nuclear recoil equivalent
-energy) since they are designed to search for SI and SD interactions, which predict exponentially-falling recoil spectra (see Figure~\ref{fig:dRdE}). Due to the theoretical bias of only considering SI and SD interactions, high energy nuclear recoils remain unexplored in many experiments.
+Unlike the more commonly studied types of interaction (SI and SD), which are not suppressed when $\vec{q} \rightarrow 0$ and for which the scattering rate on nucleons is expected to be largest for low energy nuclear recoils, some of the new EFT operators depend explicitly on $\vec{q}$ and so their interaction cross section is suppressed for low momentum transfers. Consequently, their scattering rate peaks at nonzero nuclear recoil energy. For sufficiently high WIMP masses, this may even occur outside typical analysis windows, which usually have an upper range of around $ 43\,\keVr$ (nuclear recoil equivalent
+energy) since they are designed to search for SI and SD interactions, which predict exponentially falling recoil spectra (see Fig.~\ref{fig:EFTdrde}). Due to the theoretical bias of only considering SI and SD interactions, high energy nuclear recoils remain unexplored in many experiments.
 
-	    Another typical assumption that can be relaxed is that WIMPs should scatter elastically with nuclei. There exist dark matter models in which the incoming and outgoing WIMPs have different mass states~\cite{InelasticIntro} separated by a keV-scale splitting. In the case where the outgoing state is more massive than the incoming state, the cross section for low recoil energies can again be suppressed, this time by scattering kinematics. Recently an inelastic adaptation of the EFT operator framework discussed above was developed~\cite{InelasticMath}. In this case the operators presented in Eqs.~\ref{eq:OpDef} are modified such that $\vec{v}^\perp_{inelastic} = \vec{v}^\perp_{elastic} +\frac{\delta_m}{\vert{\vec{q}}\vert^2}\vec{q}$. We consider this case in section \ref{subsubsec:Inelastic}.
+	    Another typical assumption that can be relaxed is that WIMPs should scatter elastically with nuclei. There exist dark matter models in which the incoming and outgoing WIMPs have different mass states~\cite{InelasticIntro} separated by a keV-scale splitting. In the case where the outgoing state is more massive than the incoming state, the cross section for low recoil energies can again be suppressed, this time by scattering kinematics. Recently an inelastic adaptation of the EFT operator framework discussed above was developed~\cite{InelasticMath}. In this case the operators presented in Eqs.~\ref{eq:OpDef} are modified such that $\vec{v}^\perp_{inelastic} = \vec{v}^\perp_{elastic} +\frac{\delta_m}{\vert{\vec{q}}\vert^2}\vec{q}$. In this paradigm the minimum momentum transfer for an interaction to occur is given by:
+\begin{equation}
+  v_\mathrm{min}/c = \frac{1}{\sqrt{2 m_N E_R}} \left|\frac{m_N E_R}{\mu_N} + \delta_m\right|,
+\end{equation}
+where $\mu_N$ is the WIMP-nucleon reduced mass. 
 
+
+
+\section{Direct Detection Strategies}
+\label{sec:detStrtegies}
+
+The expected WIMP interaction rates and interaction types, as well as the expected flux (explained above) gives general requirements from any instrument aiming at the detection of WIMP scattering from a target nuclei (direct detection). The detector must have a low threshold for NR O(1-10)\,keV as most WIMP paradigm yields an exponential decay of the recoil spectrum. Hence a lower threshold yields a large increase in sensitivity. The expected total interaction rate in a detector is very low; therefore the detector should have low radioactive contaminations, this in addition to a low background environment yields a low background instrument. Most detectors are situated in an underground facility to reduce muon flux from cosmic rays (see Fig.~\ref{fig:MuonRed}). Additionally, if the detector has the ability to discriminate between NR and ER it will it will increase its detection capabilities, as most background comes from $\gamma$-rays and $\beta$ decays will be rejected. Because the event rate grows with target volume, the larger the number of nuclei is, the larger is the detector sensitivity, this can compensate for bigger background rates. Finally would the detector have the ability to identify special features of WIMPS such as interaction types, directionality of the the incoming WIMP,or annual modulation it will have a clearer signature of WIMP detection.
+
+\begin{figure}[]
+	\centering
+	\includegraphics[width=0.8\textwidth]{figs/muones.png}
+	\mycaption[Muon reduction id underground facilities]{ DThe muon reduction in different underground facilities hosting DM direct detection experiments.}
+	\label{fig:MuonRed}
+\end{figure}
+
+The energy deposited in a material by any interacting particle, can be measured by three excitation channels: scintillation, ionization, and heat (phonons). Different detectors use different excitation channels; scintillators based experiments (e.g., DAMA/LIBRE) use light detectors to detect the scintillation lights, Germanium based detectors usually use the ionization channel (e.g., CoGeNT) and superconductor based experiment(e.g., CRESST) detect heat. <ost leading experiments detect two of the excitation channel (e.g., XENON detecting scintillation and ionization). The detection of two excitation channels gives a better ability to discriminate signal to background. The discrimination parameter is usually the ration between the two channels.  
+
+Past and present representative experiment of WIMP direct detection are shown in Fig.~\ref{fig:det_strategy}. The different experiments are divided into the six possible detection channels. In the next section we focused on Liquid-Noble detectors, mainly on XENON based detectors.  
+
+\begin{figure}[]
+	\centering
+	\includegraphics[width=0.8\textwidth]{figs/DetChannels.png}
+	\mycaption[Excitation detection channels.]{ Direct detection experiments classified by their detection strategies.}
+	\label{fig:det_strategy}
+\end{figure}
+
+\section{Liquid Nobel Detectors}
+\label{sec:liquidDet}
+
+The leading DM direct detection detectors currently are the one based on Liquid Noble elements, mainly Xenon and Argon. The excitation channels these detectors can use are the scintillation and ionization. The strategy these detectors exploit for lowering the background rates is the self-shielding of the target materials. PMT arrays deploys in the LXe or LAr detects the scintillation. Applying an electric field drifting the the extracted ionization electrons  allows ionization measurement. The ionization to scintillation ratio and the pulse shape can be used as discriminator parameters between signal (NR) and background (ER). The low concentration of radioactive isotopes results in an inner volume practically free of electromagnetic background. Liquid noble detectors are divided into two; only liquid detectors (single phase) and liquid and gas detectors (dual phase).
+
+\subsection{Single Phase Detectors}
+\label{sec:singlePhase}
+ 
+Single phase detectors exploit fully the self-shielding properties of LXe and LAr to create a low background inner volume. This experiment usually relay on light detectors immersed in the liquid target. The position reconstruction of an interaction is obtained by the observed light hit pattern and its resulotion depends on the photodetector size. The main advantage of these detectors is their simplicity. Since no ionization measure is used, the complexity in adding high voltage and cathode-anode-grid systems is needed. The main disadvantage is that less information is known about each interaction event. Mainly the discrimination between ER and NR is less efficient. 
+
+An example of a single phase LXe detectors is the XMASS detector, positioned in the Kamioca observatory in Japan. It is a spherical 800\,kg detectors surrounded by 642 PMTs. The detector is deployed in a 10\,ton water tank to reduce background. The have excluded a cross section of $1.5\times 10^{-43}$\,cm$^2$ for a 100\,GeV WIMP with an exposure of 292 days is.~\cite{Hiraide:2016ryf}.
+
+An example for future LAr single phase detector is the DEAP experiment located in SNOLab underground facility. The Lar pulse shape descrimination that will be used enhaces the expected sensitivity. The detector is expected to be a 1-tonne FV with background expectation of less than $0.3$ event/year. 
+ 
+\subsection{Dual Phase Detectors}
+\label{sec:dualPhase}
+
+Dual phase detectors rely on time projection chamber (TPC) technique, expoliting both scintillation and ionization channels. The scinillation photoenes are detected like in the single phase detectors usually using PMTs. The electrons are drifted in the liquid due to an external electric field, extracted to the gas phase using a stronger electric field, there they geerate proportional scintillation, or electroluminance. The ration of the two signals is used as a descriminator parameter, as ER produces a higher ionizion signal compared to the same one from NR. a full 3D position reconstruction is achieved using the hit pattern of the proportional scintillation and the time difference between the two signals. A more detailed desciption of the XENON experiment TPC can be found in~\ref{sec:xenonProg}.
+
+The leading dual phase LXe collaborations are LUX~\cite{Akerib:2012ys} PANDAX~\cite{Cao:2014jsa} and XENON1T~\cite{Aprile:2017aty} Currently XENON1T sets the most stringent limit for the SI interaction~\cite{Xenon1TResults}. LAr have an additional advantage using  pulse shape discrimination techniques. The main disadventage of LAr is the PMT efficiency for Ar scintillation light causing most detectors to coat the PMT with a wavelength shifter, which reduces the detection efficiency loss. Amongst the leading LAr programs are WArP~\cite{Zani:2014lea}, ArDM~\cite{Rubbia:2005ge}, and DarkSide~\cite{Alexander:2013hia}  
 
 %%======
 \section{Non Linear Emission of Radiation in Liquid Xenon}
 \label{sec:intro_superradiance}
-As explained in (~\ref{} TODO add reference here) in LXe based experiment the exact properties of the scintillation and ionization responses to all types of interaction must be well quantified and understood. Mainly, much research has been focused on the scintilation and ionization responses of LXe to events with energy recoil as low as <O(10\,keV)~\cite{Manzur:2009hp,Aprile:2012an,Baudis:2013cca}(TODO add LUX).
+As explained in Sec.~\ref{sec:detStrtegies}, in LXe based experiment the exact properties of the scintillation and ionization responses to all types of interaction must be well quantified and understood. Mainly, much research has been focused on the scintilation and ionization responses of LXe to events with energy recoil as low as <O(10\,keV)~\cite{Manzur:2009hp,Aprile:2012an,Baudis:2013cca,Akerib:2016mzi}.
 Specifically the reconstruction of the directionality of recoil nuclei or electrons is of great interest to DM direct detection experiments. Better understanding of these properties may help to reduce background dramatically.
 
 Several existing and proposed experiments such as DRIFT-II~\cite{Muna:2007zz}, DMTPC~\cite{Deaconu:2017vam}, NEWAGE~\cite{Yakabe:2016pjh} and MIMAC~\cite{Riffard:2016mgw}, exploit recoil direction properties. However These experiments are using dilute gas in which the ionization tracks extend to a few millimeters. However, in LXe the track length is estimated to be O(100nm). Moreover the topology of the excimers clouds is represented by a complex structure of branches which are formed by secondary recoils [35,50]. These two different properties, track length and structure, makes it highly difficult if not impossible to construct directionality in a LXe experiment. Therefore, a different approach for directionality measurement needs to be adopted for DM LXe based experiments.
 
 The phenomena of an isolated particle in an excited state undergoing a transition to its ground state (i.e. spontaneous decay) as a result of the vacuum electromagnetic field  is well described in the theory of quantum electrodynamics. This theory is applicable for an ensemble of particles only when particles interact with the vacuum electromagnetic field separately. In this case the ensemble will emit light an exponential law. The characteristic time, $\tau_{sp}$, of a single particle to radiate is equal to the the reciprocal of the transition rate $\Gamma$ from the initially excited level. The radiation pattern in this case is isotropic in its nature, see Fig.~\ref{fig:emissionType}a. 
 
-These radiation properties are significantly different when the radiating particles are dense enough. In this case the collective radiation from  the ensemble is different than the sum of all particles radiating. This phenomena was first postulated by Dicke~\cite{DickeSR} in 1954 and was first measured in Xe by Rosenberger in 1965~\cite{FirstMeasure}. In his research the radiation decay time from a two level atomic system was considered and expected to be dependent on the number of radiating particles N. This type of emission is referred as superradiance. This phenomena is due to interaction of the radiating particles with each other via a common electromagnetic radiation field, which results in a correlation between the atomic dipole moment. This correlation leads to a macroscopic optical polarization proportional to N. Hence the radiation intensity is proportional to $N^2$, leading to a pulsed radiation with duration proportional to $1/N$, see Fig~\ref{fig:emissionType}b. The phenomena of superradiance has been studied extensively since see [TODO add cite [52, 53]]   
+These radiation properties are significantly different when the radiating particles are dense enough. In this case the collective radiation from  the ensemble is different than the sum of all particles radiating. This phenomena was first postulated by Dicke~\cite{DickeSR} in 1954 and was first measured in Xe by Rosenberger in 1965~\cite{FirstMeasure}. In his research the radiation decay time from a two level atomic system was considered and expected to be dependent on the number of radiating particles N. This type of emission is referred as superradiance. This phenomena is due to interaction of the radiating particles with each other via a common electromagnetic radiation field, which results in a correlation between the atomic dipole moment. This correlation leads to a macroscopic optical polarization proportional to N. Hence the radiation intensity is proportional to $N^2$, leading to a pulsed radiation with duration proportional to $1/N$, see Fig~\ref{fig:emissionType}b. The phenomena of superradiance has been studied extensively since see~\cite{Gross1982301,benedict1996super}  
 \begin{figure}[t!]
 	\centering
 	\includegraphics[width=0.8\textwidth]{figs/emissionTypes.png}
-	\mycaption[TODO list of figures caption.]{TODO insert caption here}
+	\mycaption[Comparison between ordinary fluorescence and superradiance.]{Comparison between ordinary fluorescence and superradiance. (a) In ordinary fluorescence, where each atom (or molecule) interacts independently with the vacuum electromagnetic field, the intensity
+decays exponentially (with time constant $\tau_{sp}$), with an isotropic directional distribution. (b) Superradiance is highly directional and its duration is of order $\tau_{sp}$/N, where N is the number of radiators in the sample. Figure from~\cite{Gross1982301} }
 	\label{fig:emissionType}
 \end{figure}
 
 
-An effective self-induction of correlations between dipole moments is a necessary condition for a particles to exhibit a \superradiance emission. The condition for this to occur are very different then the ones of regular fluorescence. The characteristic time of \superradiance emission to happen, $\tau_c \sim 1/N $ must be shorter the relaxation time of the atomic dipole moment, $\tau_d$. It also has to be shorter then $\tau_{sp}$, however in most cases, $\tau_{d}$ is smaller than $\tau_{sp}$, hence this is a more stiringit condition. Notice that unlike inverse population that happens in lasers, which occurs due to an external "pump", the correlation build-up between the radiating particles in \superradiance happens spontaneously in the course of emission process.
+An effective self-induction of correlations between dipole moments is a necessary condition for a particles to exhibit a \superradiance emission. The condition for this to occur are very different then the ones of regular fluorescence. The characteristic time of \superradiance emission to happen, $\tau_c \sim 1/N $ must be shorter the relaxation time of the atomic dipole moment, $\tau_d$. It also has to be shorter then $\tau_{sp}$, however in most cases, $\tau_{d}$ is smaller than $\tau_{sp}$, hence this is a more stringent condition. Notice that unlike inverse population that happens in lasers, which occurs due to an external "pump", the correlation build-up between the radiating particles in \superradiance happens spontaneously in the course of emission process.
 
 The geometry of the radiating particle ensemble influences greatly weather or not a system will exhibit a \superradiance or standard spontaneous emissions. Specifically the two relevant quantities, are the wavelength $\lambda$ of the emitted photon, and the size of the radiating particles cloud. A system with linear size much smaller then the emitted photons wavelength.   
 %The superradiant emission depends strongly on the geometry of the atomic system. The length
@@ -415,9 +465,82 @@ The geometry of the radiating particle ensemble influences greatly weather or no
 %. However,
 %a system with linear size L & λ will radiate most of its energy into small solid angles along the
 
-TODO understand previous paragraph
+%TODO understand previous paragraph
 
 
+
+\section{The XENON Program}
+\label{sec:xenonProg}
+
+The XENON program for DM searches, is a four phases program LXe detectors aiming to measure the scattering of DM of xenon nuclei. In each phase the mass of the detector is larger by roughly an order of magnitude, starting from 10\,kg in the first phase, and ending with 7\,tonne in the last. The program operates the detectors at the Laboratori Nazionali del Gran Sasso (LNGS) in Italy. Under an average depth of 3600 m water equivalent, the cosmic muon
+flux is suppressed by six orders of magnitude with respect to sea level (see Fig.~\ref{fig:MuonRed}). The time line for all phases, as well as their properties and sensitivities are presented in Fig.~\ref{fig:XenonProg}.
+
+The XENON detectors are dual phase (liquid-gas) TPCs, with simultaneous
+detection of the Xe scintillation light (S1) at the few keV level, and ionization (S2) at the single electron level. The ratio S2/S1 produced by a WIMP (or neutron) interaction is different from that produced by an electromagnetic interaction, allowing a very efficient particle identification.
+
+The ultra low background has been achieved by: careful selection of the materials; the xenon self-shielding capabilities as well as water shielding in advance phases; and selecting data only from a fiducial volume located at the center of the detector.
+
+A short summary on each phase and its upgrade from previous phase is presented here, the main concepts of the XENON TPC are explained using XENON100 as an example in Sec.~\ref{sec:xe100}.
+
+
+\begin{figure}[t!]
+	\centering
+	\includegraphics[width=0.95\textwidth]{figs/XePhases.png}
+	\mycaption[The XENON Program detectors]{The timeline of the four phases of the XENON program}
+	\label{fig:XenonProg}
+\end{figure}
+
+
+\subsection{XENON10}
+\label{sec:xe10}
+The first phase was the XENON10 detector a cylinder $\sim 20$\,cm diameter and $20$\,cm length, holding 25\,kg of xenon (10\,kg in the FV). The detector was operating mainly as a prototype for the larger detectors to come. It was operating between the years 2005 and 2007, achieving an exclusion limit of $\sigma_{SI} = 8.8 \times 10^{-44}$\,cm$^2$ for a 50\,GeV WIMP~\cite{Angle:2007uj}.
+
+\subsection{XENON100}
+\label{sec:xe100}
+The second phase was the XENON100 detector a cylindrical $\sim 40$\,cm diameter and $40$\,cm length hosting 161\,kg of LXe, of which 62\,kg function as the active target and 34\,kg as the FV. The detector uses of a total of 178 1-inch square Hamamatsu R8520-AL PMTs employed in two arrays, one in the gas phase at the top of the TPC, and the other at the bottom, immersed in the LXe~\cite{xe100_instr2012}.
+
+A particle interacting with the LXe deposits energy that creates both
+prompt scintillation (S1) and delayed proportional scintillation (S2) both finally producing vacuum ultra violet (VUV) 178\,nm photons. The photons are detected using the two PMT arrays. The S2 signal is produced by ionization electrons, drifted in an electric field of $530$V/cm towards the liquid-gas interface, where they are extracted to the gas phase using a stronger electric field of $\sim12$kV/cm in which the proportional scintillation occurs. 
+The spatial distribution of the S2 signal on the top PMT array, together with the time difference between S1 and S2 signals, provide respectively $x$-$y$ and $z$ position information for each interaction, allowing 3D position reconstruction to be achieved.
+
+Interaction in different locations of  the detector have different signatures. In order to take these effects into account, a correction is applied based on light and charge collection efficiency maps. These maps are prepared using calibration sources ranging up to energies well above $240~\keVr$, which is the highest energy recoil considered in this paper. The corrected signals (cS1,cS2) are spatially independent and uniform to all interactions~\cite{xe100_instr2012}. Note that some of the top PMTs saturate for large S2 signals and we therefore use in this analysis only the bottom PMT array to infer the energy scale in S2. A schematic of the detection principle is shown in Fig~\ref{fig:xe100TPC}
+
+\begin{figure}[]
+	\centering
+	\includegraphics[width=0.95\textwidth]{figs/xe100TPC.png}
+	\mycaption[TPC detection principle]{ Operational principle of the XENON TPC. The ratio S2/S1 provides separation between nuclear and electromagnetic recoils.}
+	\label{fig:xe100TPC}
+\end{figure}
+
+The detector has been operating between the years 2008 and 2016, achieving an exclusion limit of $\sigma_{SI} = 1.1 \times 10^{-45}$ for a 50\,GeV WIMP~\cite{xe100_run_combination}. Additionally XENON100 excluded many interpretation trying to explain the tension with DAMA/LIBRE observation results. In Chapter~\ref{chap:EFT} we present an analysis done on the XENON100 data considering the EFT approach for high energy recoils~\cite{Aprile:2017aas}.  
+
+\subsection{XENON1T}
+\label{sec:xe1T}
+
+The third phase of the XENON program is the XENON1T detector~\cite{Aprile:2017aty}. This detector is the first ton scale dual phase TPC  DM detector. It has been fully operating since 2016. The XENON1T TPC contains $~sim 3$\,tons of LXe (1\,ton in the FV) and has achieved the lowest background rate in DM detectors. This level of background is achieved by carefully selecting low radioactive materials, and by deploying the TPC in the middle of a 10 meters hight, 10 meters diameter water tank, which acts as an active cosmic muon veto and as a passive neutron shield. A view of XENON1T is shown in Fig~\ref{fig:xe1tLim}.
+
+\begin{figure}[]
+	\centering
+	\includegraphics[width=0.95\textwidth]{figs/xe1tImg.png}
+	\mycaption[XENON1T Image]{A picture of the XENON1T detector(left) and its control room (right)}
+	\label{fig:xe1tLim}
+\end{figure}
+
+The first science run had an exposure of 1 month, achieving the most stringent  exclusion limit to date with a minimum of $7.7\times10^{-47}$\,cm$^2$ for a 35\,GeV WIMP, the full limit is shown in Fig.~\ref{fig:xe1tLim}. In Chap.~\ref{chap:calibration}, is a description of the calibration system of XENON1T.
+ 
+\begin{figure}[]
+	\centering
+	\includegraphics[width=0.95\textwidth]{figs/xe1tLimit.png}
+	\mycaption[XENON1T exclusion limit]{The spin-independent WIMP-nucleon cross section limits as a function of WIMP mass at 90\% confidence
+level.}
+	\label{fig:xe1tLim}
+\end{figure}
+
+
+\subsection{XENONnT}
+\label{sec:xenT}
+
+The fourth and final phase of the XENON program is the XENONnT detector. Unlike other phases, this phase will be integrated inside the infrastructure of its ancestor XENON1T. The main upgrade will be the replacement of the inner vessel of XENON1T to a larger vessel which contains roughly $\sim8$\,ton of LXe. The projected sensitivity of XENONnT is estimated to be $1.6\times10^{-48}$\,cm$^{2}$ 
 %\subsection{Subsection}
 %\label{subsec:subsec01}
 %
