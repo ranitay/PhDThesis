@@ -527,6 +527,22 @@ doi = {10.1093/mnras/152.1.75}
       SLACcitation   = "%%CITATION = PRLTA,110,141102;%%"
 }
 
+@article{Chepel:2012sj,
+      author         = "Chepel, V. and Araujo, H.",
+      title          = "{Liquid noble gas detectors for low energy particle
+                        physics}",
+      journal        = "JINST",
+      volume         = "8",
+      year           = "2013",
+      pages          = "R04001",
+      doi            = "10.1088/1748-0221/8/04/R04001",
+      eprint         = "1207.2292",
+      archivePrefix  = "arXiv",
+      primaryClass   = "physics.ins-det",
+      SLACcitation   = "%%CITATION = ARXIV:1207.2292;%%"
+}
+
+
 @article{Blum:2013zsa,
       author         = "Blum, Kfir and Katz, Boaz and Waxman, Eli",
       title          = "{AMS-02 Results Support the Secondary Origin of Cosmic

@@ -19,10 +19,10 @@
 	    
 The EFT framework of \cite{Fitzpatrick:2012ib} is constructed at the WIMP-nucleon level and so each operator may be present independently for protons and neutrons, though UV models can of course correlate their couplings. The full EFT thus has 28 coupling parameters in addition to the WIMP mass, plus a mass splitting~$\delta$ in the inelastic case. This parameter space is too large to explore in full, so a similar approach to the SI/SD case is taken, assuming only one active operator at a time, considering it equally coupled to protons and neutrons (the ``isoscalar'' case). 
 
-To facilitate the full exploitation of these results by the community, we provide in supplementary material a set of tools for converting any theoretical recoil spectrum $\mathrm{d}R/\mathrm{d}E$ into an accurate event rate prediction for this analysis, including all detector response and analysis efficiency effects. This may help to set a mildly conservative but quite accurate limit on arbitrary models in the full EFT parameter space, or any other particle dark matter model for which one can supply the expected recoil spectrum. These tools are described further in Appendix~\ref{app:response_table}.
+To facilitate the full exploitation of these results by the community, I provide in supplementary material a set of tools for converting any theoretical recoil spectrum $\mathrm{d}R/\mathrm{d}E$ into an accurate event rate prediction for this analysis, including all detector response and analysis efficiency effects. This may help to set a mildly conservative but quite accurate limit on arbitrary models in the full EFT parameter space, or any other particle dark matter model for which one can supply the expected recoil spectrum. These tools are described further in Appendix~\ref{app:response_table}.
 %=======
 
-In this work we reanalyze science run~II data recorded between February 2011 and March 2012, corresponding to 224.6~live~days. The characterization of the detector response to ER interactions is performed using dedicated calibration campaigns with $^{60}$Co and $^{232}$Th radioactive sources, while the response to NR interactions is performed using $^{241}$AmBe neutron source calibration campaigns.
+In this work I reanalyze science run~II data recorded between February 2011 and March 2012, corresponding to 224.6~live~days. The characterization of the detector response to ER interactions is performed using dedicated calibration campaigns with $^{60}$Co and $^{232}$Th radioactive sources, while the response to NR interactions is performed using $^{241}$AmBe neutron source calibration campaigns.
  
 This work extends the previous results~\cite{xe100_run10_si,xe100_run_combination}, referred to in the following as the low-energy channel, with a new study exploring the recoil energy range between $(43-240)~\keVr$. 
 The data analysis is divided into two mutually exclusive channels, one optimized for low energies and ranging from $(3-30)$~PE in \cSi{} (low-energy), 
@@ -75,13 +75,13 @@ This analysis channel targets high-energy nuclear recoils and is the focus of th
 
 The width of an \Sii{} pulse increases with the depth (z) of the interaction. This is due to the diffusion of the electron cloud during its propagation
 through the liquid xenon. Since low-energy \Sii{} events show larger spread
-due to low statistics of drifted electrons, the cut was previously defined in an energy-dependent way. However, for the large recoil energies considered in this channel, this energy dependency is no longer valid. We therefore use here a cut on the \Sii{} width which is a function of the depth of the interaction alone. 
+due to low statistics of drifted electrons, the cut was previously defined in an energy-dependent way. However, for the large recoil energies considered in this channel, this energy dependency is no longer valid. I therefore use here a cut on the \Sii{} width which is a function of the depth of the interaction alone. 
 
-As a WIMP will interact only once in the detector, we remove events which have more than one \Sii{}. We adopt in this analysis a cut that is more suitable to higher energies and demand a single \Sii{} in a 160 $\mu$s window, instead of a linear dependence between the second \Sii{} size and the first. 
+As a WIMP will interact only once in the detector, I remove events which have more than one \Sii{}. I adopt in this analysis a cut that is more suitable to higher energies and demand a single \Sii{} in a 160 $\mu$s window, instead of a linear dependence between the second \Sii{} size and the first. 
 
-To define the interaction's exact location in ($x,y$), we use several algorithms, one of which is based on a neural network (NN)~\cite{Aprile:2012vw}. The NN was not trained to recognize high energy ER events, and therefore a cut on the NN reconstruction quality is not suitable for this analysis. We therefore discard this cut but keep all other selections on position reconstruction quality, which is sufficient to ensure a correct position reconstruction. 
+To define the interaction's exact location in ($x,y$), I use several algorithms, one of which is based on a neural network (NN)~\cite{Aprile:2012vw}. The NN was not trained to recognize high energy ER events, and therefore a cut on the NN reconstruction quality is not suitable for this analysis. I therefore discard this cut but keep all other selections on position reconstruction quality, which is sufficient to ensure a correct position reconstruction. 
 
-The total acceptance to WIMP signals is computed based on $^{241}$AmBe calibration data as a function of \cSi, following the procedure described in~\cite{Aprile:2012vw}. We present this function in Fig.~\ref{fig:Acc}, where the total acceptance is fitted using a third-order polynomial.
+The total acceptance to WIMP signals is computed based on $^{241}$AmBe calibration data as a function of \cSi, following the procedure described in~\cite{Aprile:2012vw}. I present this function in Fig.~\ref{fig:Acc}, where the total acceptance is fitted using a third-order polynomial.
 
 \begin{figure}[t!]
 \begin{minipage}{0.9\linewidth}
@@ -91,13 +91,13 @@ The total acceptance to WIMP signals is computed based on $^{241}$AmBe calibrati
 \label{fig:Acc}
 \end{figure}
 
-We define our signal region in the discrimination log$(\cSiib{}/\cSi),\cSi)$-plane using $^{241}$AmBe calibration data. 
+I define our signal region in the discrimination log$(\cSiib{}/\cSi),\cSi)$-plane using $^{241}$AmBe calibration data. 
 The region of interest is shown in Fig.~\ref{fig:phasespace} as blue contour lines. The upper bound in log$(\cSiib/\cSi)$ is defined such that the contribution due to xenon inelastic interaction lines is negligible. The lower bound is defined as the 3\,$\sigma$ acceptance quantile of the $^{241}$AmBe distribution.
 
-We divide our signal region into two bands in log$(\cSiib/\cSi)$, constructed such that the $^{241}$AmBe data sample is equally distributed in between them. The number of events in each band is $\sim3000$. The bands are further divided into nine bins, the number and boundaries of which have been optimized via Monte Carlo (MC) simulation. The definitions of the bins boundaries are presented in Table~\ref{table:BinDef} and in Fig.~\ref{fig:phasespace}. 
+I divide our signal region into two bands in log$(\cSiib/\cSi)$, constructed such that the $^{241}$AmBe data sample is equally distributed in between them. The number of events in each band is $\sim3000$. The bands are further divided into nine bins, the number and boundaries of which have been optimized via Monte Carlo (MC) simulation. The definitions of the bins boundaries are presented in Table~\ref{table:BinDef} and in Fig.~\ref{fig:phasespace}. 
 
-The main source of background results from ER leakage. We therefore estimate the background distribution in the ROI using $^{60}$Co and $^{232}$Th calibration events.  
-Contributions from radiogenic and cosmogenic neutrons, as well as accidental coincidence, are negligible for such a high energy recoil. In Table~\ref{table:BinDef}, we report the 
+The main source of background results from ER leakage. I therefore estimate the background distribution in the ROI using $^{60}$Co and $^{232}$Th calibration events.  
+Contributions from radiogenic and cosmogenic neutrons, as well as accidental coincidence, are negligible for such a high energy recoil. In Table~\ref{table:BinDef}, I report the 
 background expectation in the ROI along with the observed events for each bin.
 Here the background expectation is computed by scaling the calibration sample yield by $6.54\times10^{-3}$, which is the ratio of observed counts to calibration counts in an independent sideband. The sideband is defined above the upper limit of this analysis and below the ER calibration band mean. Note that in the computation of exclusion limits the background normalization is fitted to data, rather than using the sideband normalization, as described in Sec.~\ref{sec:LikelihoodFunction}. 
 
@@ -143,7 +143,7 @@ Here the background expectation is computed by scaling the calibration sample yi
 \section{Signal model}
 \label{subsec:SignalModel}
 The signal model is produced by taking a theoretical event rate spectrum, the production of which is described in Secs. \ref{subsubsec:Elastic} and \ref{subsubsec:Inelastic}, and applying the analysis acceptance and detector response as described in ~\cite{Aprile:2012vw}  to obtain the expected event rate in the detector in terms of detector variables (i.e. \cSi{} and \cSiib{}). 
-In both analysis channels, we use Eq.~\ref{eq:LeffEnergyScale} in order to compute the expected average \cSi{} for a given NR energy,
+In both analysis channels, I use Eq.~\ref{eq:LeffEnergyScale} in order to compute the expected average \cSi{} for a given NR energy,
 \begin{equation}
 \label{eq:LeffEnergyScale}
 	\langle \cSi \rangle = E_{\mathrm{nr}} \cdot (\Ly \Leff) \cdot   \left(\frac{S_\mathrm{nr}}{S_\mathrm{ee}}\right) 
@@ -171,7 +171,7 @@ p_\mathrm{S2}(\mathrm{\cSiib}|E) = \sum_{N'} P_\mathrm{pmt}(\mathrm{\cSiib}|Y N'
 where $\mu_Q=E_{\mathrm{nr}}\Qy$ is the expected number of liberated charges in a nuclear recoil event of energy $E$, and $N'$ is the actual number of liberated charges. The amplification factor $Y$ is applied to the actual number of liberated charges $N'$, not the expected number $\mu_Q$. Associated with this is the variance of the Gaussian response PDF, $\sigma_Y\sqrt{N'}$, where in this analysis $\sigma_Y = 6.93$ as measured and described in~\cite{XenonSingleElectron}. 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-For the high-energy region we cannot produce the \Sii{} distribution in the same way as the method in~\cite{DataMCXenon}, since it  has not been calibrated for such high recoil energies. We therefore use the NR calibration data distribution in log($\mathrm{\cSiib/\cSi)}$) to estimate the WIMP distribution. Above 180~PE in \cSi{}, the event yield of $^{241}$AmBe data is too low to estimate the distribution accurately. This forms the upper bound of this analysis. With the \cSiib{} distribution determined by this empirical method, we require only a prediction of the \cSi{} distribution. This is obtained from Eq.~(\ref{eq:LeffEnergyScale}), followed by the application of detector and PMT responses, as well as the acceptance given in Fig.~\ref{fig:Acc}, which completes the high-energy signal model definition.
+For the high-energy region I cannot produce the \Sii{} distribution in the same way as the method in~\cite{DataMCXenon}, since it  has not been calibrated for such high recoil energies. I therefore use the NR calibration data distribution in log($\mathrm{\cSiib/\cSi)}$) to estimate the WIMP distribution. Above 180~PE in \cSi{}, the event yield of $^{241}$AmBe data is too low to estimate the distribution accurately. This forms the upper bound of this analysis. With the \cSiib{} distribution determined by this empirical method, I require only a prediction of the \cSi{} distribution. This is obtained from Eq.~(\ref{eq:LeffEnergyScale}), followed by the application of detector and PMT responses, as well as the acceptance given in Fig.~\ref{fig:Acc}, which completes the high-energy signal model definition.
 
 Figures ~\ref{fig:HighE} and \ref{fig:LowE} show signal distribution examples for two EFT operators and for the low and the high-energy region, respectively.
 In both cases, the signal distributions are normalized to yield five events in the total energy range (low-energy and high-energy).
@@ -198,14 +198,14 @@ In both cases, the signal distributions are normalized to yield five events in t
 \subsection{Elastic scattering}
 \label{subsubsec:Elastic}
 
-The expected recoil energy spectrum of each WIMP mass for each EFT operator is calculated using the Mathematica package \texttt{DMFormFactor} supplied by Anand et al.~\cite{Fitzpatrick:MathTools,Anand:MathTools}. We use standard assumptions as in previous analyses (e.g \cite{xe100_run_combination}) regarding the local dark matter density and velocity distribution, namely $\rho_\mathrm{local} = 0.3$~GeV$\cdot c^{-2}$/$\mathrm{cm}^{3}$ and a Maxwell-Boltzman distribution with a mean given by the local circular velocity $v_0 = 220$ km/s and cut off at an escape velocity of $v_\mathrm{esc} = 544$ km/s. The responses of xenon nuclei to a scattering event are computed from one-body density matrices provided with the package, in contrast to the Helm form factors which have been used in previous analyses. These spectra are produced for the seven most abundant xenon isotopes (128, 129, 130, 131, 132, 134 and 136), combined in proportion to the abundance of these isotopes in the XENON detector \cite{xe100_run10_sd}, then translated into expected signal rates via the method described above.
+The expected recoil energy spectrum of each WIMP mass for each EFT operator is calculated using the Mathematica package \texttt{DMFormFactor} supplied by Anand et al.~\cite{Fitzpatrick:MathTools,Anand:MathTools}. I use standard assumptions as in previous analyses (e.g \cite{xe100_run_combination}) regarding the local dark matter density and velocity distribution, namely $\rho_\mathrm{local} = 0.3$~GeV$\cdot c^{-2}$/$\mathrm{cm}^{3}$ and a Maxwell-Boltzman distribution with a mean given by the local circular velocity $v_0 = 220$ km/s and cut off at an escape velocity of $v_\mathrm{esc} = 544$ km/s. The responses of xenon nuclei to a scattering event are computed from one-body density matrices provided with the package, in contrast to the Helm form factors which have been used in previous analyses. These spectra are produced for the seven most abundant xenon isotopes (128, 129, 130, 131, 132, 134 and 136), combined in proportion to the abundance of these isotopes in the XENON detector \cite{xe100_run10_sd}, then translated into expected signal rates via the method described above.
 
 \subsection{Inelastic WIMP scattering}
 \label{subsubsec:Inelastic}
-To obtain recoil spectra for WIMP-nucleon scattering for all EFT operators with inelastic kinematics, we use a modified version of \texttt{DMFormFactor} provided by Barello et al. \cite{InelasticMath}. The authors have modified the original package to enforce the new energy conservation condition $\delta_m + \vec{v}\cdot\vec{q} + \left|\vec{q}\right|^2/2\mu_N = 0$, primarily by replacing 
+To obtain recoil spectra for WIMP-nucleon scattering for all EFT operators with inelastic kinematics, I use a modified version of \texttt{DMFormFactor} provided by Barello et al. \cite{InelasticMath}. The authors have modified the original package to enforce the new energy conservation condition $\delta_m + \vec{v}\cdot\vec{q} + \left|\vec{q}\right|^2/2\mu_N = 0$, primarily by replacing 
 $\vec{v}^\perp_{elastic} \rightarrow \vec{v}^\perp_{inelastic} = \vec{v}^\perp_{elastic} +\frac{\delta_m}{\vert{\vec{q}}\vert^2}\vec{q}$ in the definitions of the EFT and nuclear operators. 
 
-Assumptions regarding the dark matter halo and nuclear physics are unchanged. The mass splitting $\delta_m$ between dark matter states is varied from ($0-300$)~keV, safely beyond the value at which the predicted rate is zero for the entire mass range we consider.
+Assumptions regarding the dark matter halo and nuclear physics are unchanged. The mass splitting $\delta_m$ between dark matter states is varied from ($0-300$)~keV, safely beyond the value at which the predicted rate is zero for the entire mass range I consider.
 
 \section{Statistical inference}
 \label{sec:LikelihoodFunction}
@@ -261,11 +261,11 @@ where the product goes over all 9 bins, $\epsilon^{b}_{i}$ is the fraction of ba
 
 \section{Data From Recoil Energies Up To 1000\,PE}
 \label{sec:SuperHighE}
-Upon completing our analysis, we examined data in the \cSi{} region above 180\,PE, up to 1000\,PE, since it will not be analyzed in any future XENON publications. We used the same data selection criteria as those applied for the high-energy channel. These selection criteria are not optimized for the new even-higher energies and may exhibit a drop in acceptance for NRs to below 50\%. Due to the lack of NR calibration data and of a rigorous background model in this energy range, a quantitative and statistically solid inference on dark matter hypotheses is impractical. Nonetheless, we provide a plot of the data here. Fig.~\ref{fig:eft_1000} shows the distribution of science data in this extended range (in black) together with NR (in red) and ER calibration data (in blue).
+Upon completing our analysis, I examined data in the \cSi{} region above 180\,PE, up to 1000\,PE, since it will not be analyzed in any future XENON publications. I used the same data selection criteria as those applied for the high-energy channel. These selection criteria are not optimized for the new even-higher energies and may exhibit a drop in acceptance for NRs to below 50\%. Due to the lack of NR calibration data and of a rigorous background model in this energy range, a quantitative and statistically solid inference on dark matter hypotheses is impractical. Nonetheless, I provide a plot of the data here. Fig.~\ref{fig:eft_1000} shows the distribution of science data in this extended range (in black) together with NR (in red) and ER calibration data (in blue).
 
 \begin{figure}
 \centerline{\includegraphics[width=1.\linewidth]{fig/superhighE.png}}
-\mycaption[Super high energy phase space]{The full \Xehund{} dark matter science run data up to 1000~PE in \cSi{} (shown in black). In blue we show data from ER calibration ($^{60}$Co and $^{232}$Th) and in red we show data from NR calibration ($^{241}$AmBe). See the text for details on these populations. While the black vertical line represents the highest energy considered for quantitative interpretation in this analysis, there is no indication of elastic NRs even above that energy.
+\mycaption[Super high energy phase space]{The full \Xehund{} dark matter science run data up to 1000~PE in \cSi{} (shown in black). In blue I show data from ER calibration ($^{60}$Co and $^{232}$Th) and in red I show data from NR calibration ($^{241}$AmBe). See the text for details on these populations. While the black vertical line represents the highest energy considered for quantitative interpretation in this analysis, there is no indication of elastic NRs even above that energy.
 \label{fig:eft_1000}}
 \end{figure}  
 
@@ -281,7 +281,7 @@ Finally, data from the dark matter search are shown in black. As can be seen, th
 A benchmark region of interest is defined between the upper and lower thresholds in \cSi{} for each channel. This region
 is bounded in $y$-space from above by the $^{241}$AmBe NR mean line and below by the lower 3$\sigma$ quantile of the $^{241}$AmBe neutron calibration data. The expected background in the region is $3.0 \pm 0.5_{stat}$ (low-energy) and $1.4 \pm 0.3_{stat}$ (high-energy). The number of DM candidates in this benchmark region is 3 (low-energy), and 0 (high-energy). Consequently, the data are compatible with the background-only hypothesis and no excess is found. 
 
-For the elastic scattering case, a 90\%\,C.L.$_S$~\cite{cls} confidence level limit is set on the effective coupling constant, $c_i$,  for all operators and masses in the range of 10~GeV/$c^2$ to 1 TeV/$c^2$. The $c_i$ are dimensionful, with units of $[\mathrm{mass}]^{-2}$, so we first convert them to dimensionless quantities by multiplying them by $m_\mathrm{weak}^2=(246.2\text{ GeV})^2$, following the conventions of \cite{Anand:MathTools}. 
+For the elastic scattering case, a 90\%\,C.L.$_S$~\cite{cls} confidence level limit is set on the effective coupling constant, $c_i$,  for all operators and masses in the range of 10~GeV/$c^2$ to 1 TeV/$c^2$. The $c_i$ are dimensionful, with units of $[\mathrm{mass}]^{-2}$, so I first convert them to dimensionless quantities by multiplying them by $m_\mathrm{weak}^2=(246.2\text{ GeV})^2$, following the conventions of \cite{Anand:MathTools}. 
 
 These limits are shown in Fig.~\ref{fig:elasticLimit} in black, along with limits from CDMS-II Si, CDMS-II Ge and SuperCDMS~\cite{CDMSEFT}.  
 
@@ -314,20 +314,20 @@ projections of results from CDMS-II~\cite{CDMS_Inelastic}, ZEPLIN-III~\cite{Zepp
 \label{fig:InelasticLimit}
 \end{figure*}
 
-For the elastic operator $O_1$, our results can be compared to those of standard SI analyses by computing the relevant zero-momentum WIMP-nucleon cross sections. This is not simple to do rigorously because the treatment of nuclear structure used in our analysis is different than in standard analyses; however, this difference is small for scattering via $O_1$. We can therefore quite safely use the ``traditional'' correspondence~\cite{DeSimone:2016fbz}
+For the elastic operator $O_1$, our results can be compared to those of standard SI analyses by computing the relevant zero-momentum WIMP-nucleon cross sections. This is not simple to do rigorously because the treatment of nuclear structure used in our analysis is different than in standard analyses; however, this difference is small for scattering via $O_1$. I can therefore quite safely use the ``traditional'' correspondence~\cite{DeSimone:2016fbz}
 %
 \begin{equation}
 \sigma_{N}^\mathrm{SI} = \left(C^N_1\right)^2 \frac{\mu_{\chi,N}^2}{\pi}
 \end{equation}
 %
-where $\mu_{\chi,N}$ is the WIMP-nucleon reduced mass. Standard SI analyses assume isospin-conserving interactions, as we do in this analysis, so we can simply set $C^N_1 = C^0_1$, such that $\sigma_{p}^\mathrm{SI}=\sigma_{n}^\mathrm{SI}$. 
+where $\mu_{\chi,N}$ is the WIMP-nucleon reduced mass. Standard SI analyses assume isospin-conserving interactions, as I do in this analysis, so I can simply set $C^N_1 = C^0_1$, such that $\sigma_{p}^\mathrm{SI}=\sigma_{n}^\mathrm{SI}$. 
 
-In principle a similar comparison can be done between our limit on the $O_4$ coupling and standard SD analysis limits; however, this time the standard analyses do {\em not} assume isospin-conserving interactions. Instead they typically assume maximal isospin violation, that is, assuming that WIMPs couple either protons or neutrons. Limits are then derived independently on $\sigma_{p}^\mathrm{SD}$ and $\sigma_{n}^\mathrm{SD}$. Because of this difference in assumptions, our limits on SD couplings are not directly comparable to usual analyses. However, they can be recast under the appropriate alternate model assumptions using the detector response tables we provide in the supplementary material.
+In principle a similar comparison can be done between our limit on the $O_4$ coupling and standard SD analysis limits; however, this time the standard analyses do {\em not} assume isospin-conserving interactions. Instead they typically assume maximal isospin violation, that is, assuming that WIMPs couple either protons or neutrons. Limits are then derived independently on $\sigma_{p}^\mathrm{SD}$ and $\sigma_{n}^\mathrm{SD}$. Because of this difference in assumptions, our limits on SD couplings are not directly comparable to usual analyses. However, they can be recast under the appropriate alternate model assumptions using the detector response tables I provide in the supplementary material.
 
 \section{Summary}
-In this section we have presented an analysis of XENON100 data at
+In this section I have presented an analysis of XENON100 data at
 recoil energies above 43 keVnr, with the new high energy
-bound set to 240 keVnr. We considered in this analysis two
+bound set to 240 keVnr. I considered in this analysis two
 models which predict interactions in this energy region:
 an EFT approach for elastic WIMP-nucleon scattering,
 and a similar EFT approach but considering instead inelastic WIMP-nucleon scattering. The observed data were
