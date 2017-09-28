@@ -40,6 +40,17 @@ author = "M. Gross and S. Haroche",
 abstract = "This essay presents a theoretical description of the superradiance phenomenon, in which both the quantal and the classical aspects are discussed. Starting from the simple two-level atom-small sample Dicke model, we successively introduce various complications inherent to a realistic superradiance experiment: effects of Van der Waals interaction between the atoms, propagation and diffraction of the electromagnetic field in the sample and finally the effects related to atomic level degeneracy or near degeneracy. We recall how to calculate the field radiated by a superradiant system in a single experiment and how to determine, for a series of identically prepared superradiant samples, the large shot to shot fluctuations of the emitted light properties. The presentation tries to unify various points of view and formalisms developed in previous works and to introduce simply and progressively the basic physical concepts relevant to the superradiance phenomenon. "
 }
 
+@book{benedict1996super,
+  title={Super-radiance: Multiatomic Coherent Emission},
+  author={Benedict, M.G.},
+  isbn={9780750302838},
+  lccn={96031132},
+  series={Series in Optics and Optoelectronics},
+  url={https://books.google.co.il/books?id=kTX\_FErjVLsC},
+  year={1996},
+  publisher={Taylor \& Francis}
+}
+
 @article{Zwicky:1937zza,
       author         = "Zwicky, F.",
       title          = "{On the Masses of Nebulae and of Clusters of Nebulae}",
