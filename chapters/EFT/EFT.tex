@@ -4,15 +4,15 @@
 % Description: EFT analysis
 %
 \let\textcircled=\pgftextcircled
-\chapter{Effective Field Theory Search for High Energy Nuclear Recoils in XENON100 Detector}
+\chapter{Effective Field Theory Search for High Energy Nuclear Recoils in \textsc{Xenon100} Detector}
 \label{chap:EFT}
 
-\initial{S}tandard SI,SD analysis concentrate on energy recoils of up to O(10)\,$\keVr$, hence a hard high energy threshold is used for them. In XENON100 this threshold value is 43\,$\keVr$. However SI and SD are not the only types of interactions possible. These new interactions which predicts higher recoil energies are considered in the EFT framework (see ~\ref{sec:intro_EFT}). moreover a WIMP may have several mass states, which will also result in a possible higher energy recoil. In Fig.~\ref{fig:EFTdrde} is an example of an expected recoil spectrum from different operators. 
+\initial{S}tandard SI,SD analysis concentrate on energy recoils of up to O(10)\,$\keVr$, hence a hard high energy threshold is used for them. In \textsc{Xenon100} this threshold value is 43\,$\keVr$. However SI and SD are not the only types of interactions possible. These new interactions which predicts higher recoil energies are considered in the EFT framework (see ~\ref{sec:intro_EFT}). Moreover a WIMP may have several mass states, which may also result in a possible higher energy recoil. In Fig.~\ref{fig:EFTdrde} is an example of an expected recoil spectrum from different operators. 
 
 \begin{figure}[t!]
 	\centering
 	\includegraphics[width=0.8\textwidth]{fig/drde.png}
-	\mycaption[drde for example operators.]{Example EFT recoil spectra for elastic scattering of spin-$1/2$ WIMPs on Xenon nuclei (weighted according to the isotope abundances in the XENON100 experiment). Left(right) shows the predicted spectra for EFT operator $\mathcal{O}_1$($\mathcal{O}_6$). The normalization is controlled by the coupling coefficient of each EFT operator and the experimental exposure. The solid vertical line at $43~\keVr$ shows the approximate division between the two signal regions used in this analysis. As shown, the standard SI ($\mathcal{O}_1$) spectrum is concentrated mainly in the already explored energy region. However, some EFT operators, for certain WIMP masses, predict a significant fraction of recoil events above the upper energy cut used in the standard SI analysis, motivating an extension of this cut. The highest recoil energy shown in the plots, $240~\keVr$, roughly corresponds to the highest energy accounted for this analysis.}
+	\mycaption[drde for example operators.]{Example EFT recoil spectra for elastic scattering of spin-$1/2$ WIMPs on Xenon nuclei (weighted according to the isotope abundances in the \textsc{Xenon100} experiment). Left(right) shows the predicted spectra for EFT operator $\mathcal{O}_1$($\mathcal{O}_6$). The normalization is controlled by the coupling coefficient of each EFT operator and the experimental exposure. The solid vertical line at $43~\keVr$ shows the approximate division between the two signal regions used in this analysis. As shown, the standard SI ($\mathcal{O}_1$) spectrum is concentrated mainly in the already explored energy region. However, some EFT operators, for certain WIMP masses, predict a significant fraction of recoil events above the upper energy cut used in the standard SI analysis, motivating an extension of this cut. The highest recoil energy shown in the plots, $240~\keVr$, roughly corresponds to the highest energy accounted for this analysis.}
 	\label{fig:EFTdrde}
 \end{figure}
 
@@ -31,7 +31,7 @@ and the other optimized for high energies recoils ranging from $(30-180)$~PE in 
 
 \section{Low Energy Channel}
 \label{subsec:LowE}
-This analysis channel relies on the reanalysis of run~II data described in~\cite{xe100_run_combination}. The region of interest (ROI), background 
+This analysis channel relies on the reanalysis of run~II data described in~\cite{xe100_run_combination}. The Region Of Interest (ROI), background 
 expectation models, data selections and their acceptances are mostly unchanged and so are only briefly summarized here. Differences with respect to said results are highlighted when present.
 
 The ROI for this channel is defined in the (log$(\cSiib{}/\cSi{}),\cSi{}$)-plane and is shown in Fig.~\ref{fig:phasespace}.  The lower 
@@ -140,7 +140,7 @@ Here the background expectation is computed by scaling the calibration sample yi
 
 
 
-\section{Signal model}
+\section{Signal Model}
 \label{subsec:SignalModel}
 The signal model is produced by taking a theoretical event rate spectrum, the production of which is described in Secs. \ref{subsubsec:Elastic} and \ref{subsubsec:Inelastic}, and applying the analysis acceptance and detector response as described in ~\cite{Aprile:2012vw}  to obtain the expected event rate in the detector in terms of detector variables (i.e. \cSi{} and \cSiib{}). 
 In both analysis channels, I use Eq.~\ref{eq:LeffEnergyScale} in order to compute the expected average \cSi{} for a given NR energy,
@@ -148,24 +148,23 @@ In both analysis channels, I use Eq.~\ref{eq:LeffEnergyScale} in order to comput
 \label{eq:LeffEnergyScale}
 	\langle \cSi \rangle = E_{\mathrm{nr}} \cdot (\Ly \Leff) \cdot   \left(\frac{S_\mathrm{nr}}{S_\mathrm{ee}}\right) 
 \end{equation}
+where $E_\mathrm{nr}$ is the recoil energy, $\Ly$ is the average light yield in the detector, $\Leff$ is the scintillation efficiency relative to 122$\keVee$ as a function of $E_\mathrm{nr}$, and $S_\mathrm{ee}$ and $S_\mathrm{nr}$ are the quenching factors due to the externally applied electric field. Aside from $E_\mathrm{nr}$ and $\Leff$ these parameters have fixed values, namely $\Ly = 2.28 \pm 0.04$, $S_\mathrm{nr} = 0.95$, and $S_\mathrm{ee} = 0.58$. Recoils below $3~\keVr$ are assumed to produce no light. For details of the physics behind these parameters and the construction of the signal Probability Density Function (PDF), see \cite{Aprile:2012vw,xe100_run_combination}. 
 
-where $E_\mathrm{nr}$ is the recoil energy, $\Ly$ is the average light yield in the detector, $\Leff$ is the scintillation efficiency relative to 122$\keVee$ as a function of $E_\mathrm{nr}$, and $S_\mathrm{ee}$ and $S_\mathrm{nr}$ are the quenching factors due to the externally applied electric field. Aside from $E_\mathrm{nr}$ and $\Leff$ these parameters have fixed values, namely $\Ly = 2.28 \pm 0.04$, $S_\mathrm{nr} = 0.95$, and $S_\mathrm{ee} = 0.58$. Recoils below $3~\keVr$ are assumed to produce no light. For details of the physics behind these parameters and the construction of the signal probability density function (PDF), see \cite{Aprile:2012vw,xe100_run_combination}. 
-
-For the low-energy region, the expected \cSiib{} signal is computed following~\cite{DataMCXenon} using Eq.~\ref{eq:Qy},
+For the low-energy region, the expected \cSiib{} signal is computed following~\cite{DataMCXenon} using Eq.~\ref{eq:Qy}
 
 
 \begin{equation}
 \label{eq:Qy}
-	\langle \cSiib \rangle = E_{\mathrm{nr}}\Qy Y   
+	\langle \cSiib \rangle = E_{\mathrm{nr}}\Qy Y,   
 \end{equation}
 where $Y = 8.3 \pm 0.3$ 
 is the amplification factor determined from the detector response to single electrons~\cite{XenonSingleElectron}, and $\Qy$ is the charge yield as a function of $E_\mathrm{nr}$. Applying the detector and PMT responses, and the acceptance as in \cite{xe100_run_combination}, defines the low-energy signal model over the region $3~\mathrm{PE} < \cSi{} < 30~\mathrm{PE}$, with $\cSiib{} > 73.5~\mathrm{PE}$ as the \Sii{} threshold.
 
-Equation \ref{eq:Qy} hides a subtlety. The actual \cSiib{} PDF is composed of two pieces, a Poisson term associated with the initial charge liberation and a Gaussian term associated with the PMT response and other detector effects:
+Equation \ref{eq:Qy} hides a subtlety. The actual \cSiib{} PDF is composed of two pieces, a Poisson term associated with the initial charge liberation and a Gaussian term associated with the PMT response and other detector effects
 %
 \begin{equation}
 \label{eq.cS2pdf}
-p_\mathrm{S2}(\mathrm{\cSiib}|E) = \sum_{N'} P_\mathrm{pmt}(\mathrm{\cSiib}|Y N',\sigma_Y \sqrt{N'})\cdot\mathrm{Pois}(N'|\mu_Q)
+p_\mathrm{S2}(\mathrm{\cSiib}|E) = \sum_{N'} P_\mathrm{pmt}(\mathrm{\cSiib}|Y N',\sigma_Y \sqrt{N'})\cdot\mathrm{Pois}(N'|\mu_Q),
 \end{equation}
 %
 where $\mu_Q=E_{\mathrm{nr}}\Qy$ is the expected number of liberated charges in a nuclear recoil event of energy $E$, and $N'$ is the actual number of liberated charges. The amplification factor $Y$ is applied to the actual number of liberated charges $N'$, not the expected number $\mu_Q$. Associated with this is the variance of the Gaussian response PDF, $\sigma_Y\sqrt{N'}$, where in this analysis $\sigma_Y = 6.93$ as measured and described in~\cite{XenonSingleElectron}. 
@@ -195,26 +194,26 @@ In both cases, the signal distributions are normalized to yield five events in t
 
 
 
-\subsection{Elastic scattering}
+\subsection{Elastic Scattering}
 \label{subsubsec:Elastic}
 
 The expected recoil energy spectrum of each WIMP mass for each EFT operator is calculated using the Mathematica package \texttt{DMFormFactor} supplied by Anand et al.~\cite{Fitzpatrick:MathTools,Anand:MathTools}. I use standard assumptions as in previous analyses (e.g \cite{xe100_run_combination}) regarding the local dark matter density and velocity distribution, namely $\rho_\mathrm{local} = 0.3$~GeV$\cdot c^{-2}$/$\mathrm{cm}^{3}$ and a Maxwell-Boltzman distribution with a mean given by the local circular velocity $v_0 = 220$ km/s and cut off at an escape velocity of $v_\mathrm{esc} = 544$ km/s. The responses of xenon nuclei to a scattering event are computed from one-body density matrices provided with the package, in contrast to the Helm form factors which have been used in previous analyses. These spectra are produced for the seven most abundant xenon isotopes (128, 129, 130, 131, 132, 134 and 136), combined in proportion to the abundance of these isotopes in the XENON detector \cite{xe100_run10_sd}, then translated into expected signal rates via the method described above.
 
-\subsection{Inelastic WIMP scattering}
+\subsection{Inelastic WIMP Scattering}
 \label{subsubsec:Inelastic}
 To obtain recoil spectra for WIMP-nucleon scattering for all EFT operators with inelastic kinematics, I use a modified version of \texttt{DMFormFactor} provided by Barello et al. \cite{InelasticMath}. The authors have modified the original package to enforce the new energy conservation condition $\delta_m + \vec{v}\cdot\vec{q} + \left|\vec{q}\right|^2/2\mu_N = 0$, primarily by replacing 
 $\vec{v}^\perp_{elastic} \rightarrow \vec{v}^\perp_{inelastic} = \vec{v}^\perp_{elastic} +\frac{\delta_m}{\vert{\vec{q}}\vert^2}\vec{q}$ in the definitions of the EFT and nuclear operators. 
 
 Assumptions regarding the dark matter halo and nuclear physics are unchanged. The mass splitting $\delta_m$ between dark matter states is varied from ($0-300$)~keV, safely beyond the value at which the predicted rate is zero for the entire mass range I consider.
 
-\section{Statistical inference}
+\section{Statistical Inference}
 \label{sec:LikelihoodFunction}
 
-The statistical interpretation of data is performed using a binned profile likelihood method, in which hypothesis testing relies upon a likelihood ratio test statistic, $\tilde{q}$, and its asymptotic distributions~\cite{asympt} to constrain the coupling constants $c_k$ for each operator $\mathcal{O}_k$. The two analysis channels are combined by multiplying their likelihoods together to produce a joint likelihood function.
+The statistical interpretation of data is performed using a binned profile likelihood method, in which hypothesis testing relies upon a likelihood ratio test statistic, $\tilde{q}$, and its asymptotic distributions~\cite{asympt} to constrain the coupling constants $c_k$ for each operator $\mathcal{O}_k$. The two analysis channels are combined by multiplying their likelihoods together to produce a joint likelihood function
 
 \begin{equation}
 \label{eq:FullLikelihood}
-\Llike = \Llike_{\mathrm{lowE}(c_i^2,\Qy,\Leff)} \times \Llike_{\mathrm{highE}(c_i^2,\Leff)}  .
+\Llike = \Llike_{\mathrm{lowE}(c_i^2,\Qy,\Leff)} \times \Llike_{\mathrm{highE}(c_i^2,\Leff)}.
 \end{equation}
 
 
@@ -229,7 +228,7 @@ the charge yield uncertainties, which are parametrized based on $\Qy$ measuremen
 
 The low-energy likelihood function is shown in Eq.~\ref{eq:LowELikelihood},  \begin{equation}
 \label{eq:LowELikelihood}
-\Llike_{lowE} = \Llike_1(c_k^2,\Leff,\Qy) \Llike_2(\epsilon_b) \Llike_3(\Leff,\Qy) .
+\Llike_{lowE} = \Llike_1(c_k^2,\Leff,\Qy) \Llike_2(\epsilon_b) \Llike_3(\Leff,\Qy)
 \end{equation}
 
 \begin{equation} \label{eq:LowELikelihood1}
@@ -238,7 +237,6 @@ The low-energy likelihood function is shown in Eq.~\ref{eq:LowELikelihood},  \be
 &\prod_{i=1}^{n^{i,j}} \frac{\epsilon_s^j M_s(c_k^2)f_s^j(cS1^i) + \epsilon_b^j M_bf_b^j(cS1^i)}{\epsilon^j_sM_s + \epsilon^j_bM_b} ,
 \end{split}
 \end{equation}
-
 where $f^j_s$ and $f^j_b$ are the probability density functions of the signal and background respectively in band j. and $M_s$ and $M_b$ are the maximum likelihood estimators for the total number of signal and background events respectively.
 \begin{equation}
 \Llike_2 = \prod_j Poiss(n^j_b | \epsilon_b^jN_b)
@@ -255,7 +253,7 @@ Uncertainties on the signal model log$(\cSiib/\cSi),\cSi{})$ distribution due to
 The high-energy likelihood function is defined in Eq.~\ref{eq:HighELikelihood}
 \begin{equation}
 \label{eq:HighELikelihood}
-\Llike_{\mathrm{highE}}(c_k^2,\Leff) = \prod_{i} \big( Poiss(n^{obs}_{i}~|~n^{s}_{i} + n^{b}_{i}) \, \times Gauss(\eta^{b}_{i}) \big) ~ \times \Llike_{stat}(\epsilon^{s}_{j},\epsilon^{b}_{i}) \times \Llike^s_{unc}(\Leff, A)
+\Llike_{\mathrm{highE}}(c_k^2,\Leff) = \prod_{i} \big( Poiss(n^{obs}_{i}~|~n^{s}_{i} + n^{b}_{i}) \, \times Gauss(\eta^{b}_{i}) \big) ~ \times \Llike_{stat}(\epsilon^{s}_{j},\epsilon^{b}_{i}) \times \Llike^s_{unc}(\Leff, A),
 \end{equation}
 where the product goes over all 9 bins, $\epsilon^{b}_{i}$ is the fraction of background event in \textbf{bin} $i$ and  $\epsilon^{s}_{j}$ is the fraction of $^{241}$AmBe data in \textbf{band} $j$. This means the uncertainty on the signal is assessed per band. $n_i^s = N_{tot}^s(c_k^2,\Leff) \times \zeta_{i,j}^s(\Leff ,\epsilon^{s}_{j})$ is the number of signal events in bin i, $\zeta_{i,j}^s(\Leff, \epsilon^{s}_{j})$ is the fraction of signal events in bin i which is in band j. $n_i^b = N_{tot}^{cal} \times \tau \times \epsilon^{b}_{i}(\eta^{b}_{i})$ is the number of background events in bin i. $\tau$ is the overall normalization of background to data, and is a free parameter.  
 
@@ -317,7 +315,7 @@ projections of results from CDMS-II~\cite{CDMS_Inelastic}, ZEPLIN-III~\cite{Zepp
 For the elastic operator $O_1$, our results can be compared to those of standard SI analyses by computing the relevant zero-momentum WIMP-nucleon cross sections. This is not simple to do rigorously because the treatment of nuclear structure used in our analysis is different than in standard analyses; however, this difference is small for scattering via $O_1$. I can therefore quite safely use the ``traditional'' correspondence~\cite{DeSimone:2016fbz}
 %
 \begin{equation}
-\sigma_{N}^\mathrm{SI} = \left(C^N_1\right)^2 \frac{\mu_{\chi,N}^2}{\pi}
+\sigma_{N}^\mathrm{SI} = \left(C^N_1\right)^2 \frac{\mu_{\chi,N}^2}{\pi},
 \end{equation}
 %
 where $\mu_{\chi,N}$ is the WIMP-nucleon reduced mass. Standard SI analyses assume isospin-conserving interactions, as I do in this analysis, so I can simply set $C^N_1 = C^0_1$, such that $\sigma_{p}^\mathrm{SI}=\sigma_{n}^\mathrm{SI}$. 
@@ -325,7 +323,7 @@ where $\mu_{\chi,N}$ is the WIMP-nucleon reduced mass. Standard SI analyses assu
 In principle a similar comparison can be done between our limit on the $O_4$ coupling and standard SD analysis limits; however, this time the standard analyses do {\em not} assume isospin-conserving interactions. Instead they typically assume maximal isospin violation, that is, assuming that WIMPs couple either protons or neutrons. Limits are then derived independently on $\sigma_{p}^\mathrm{SD}$ and $\sigma_{n}^\mathrm{SD}$. Because of this difference in assumptions, our limits on SD couplings are not directly comparable to usual analyses. However, they can be recast under the appropriate alternate model assumptions using the detector response tables I provide in the supplementary material.
 
 \section{Summary}
-In this section I have presented an analysis of XENON100 data at
+In this section I have presented an analysis of \textsc{Xenon100} data at
 recoil energies above 43 keVnr, with the new high energy
 bound set to 240 keVnr. I considered in this analysis two
 models which predict interactions in this energy region:

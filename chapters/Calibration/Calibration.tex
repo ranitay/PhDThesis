@@ -5,37 +5,33 @@
 %
 \let\textcircled=\pgftextcircled
 
-\chapter{Calibration System for Xenon1T} \label{chap:calib}
+\chapter{Calibration System for \textsc{Xenon1T}} \label{chap:calib}
 \label{chap:calibration}
-\initial{A} crucial prerequisite for having a successful detector is a good understanding of the response for different types of interactions. In low-background experiments the usual technique for quantifying the detector response for different radiation types, is by creating controlled data samples. These samples are obtained by exposing the detector to a radioactive source with intensity which is order of magnitude greater than the background rate, insuring that events in the detector are coming from a well defined source. The study of these induced signals is known as "\textit{detector calibration}" 
+\initial{A} crucial prerequisite for having a successful detector is a good understanding of the response for different types of interactions. In low-background experiments the usual technique for quantifying the detector response for different radiation types is by creating controlled data samples. These samples are obtained by exposing the detector to a radioactive source with intensity which is order of magnitude greater than the background rate, ensuring that events in the detector are coming from a well defined source. The study of these induced signals is known as ``\textit{detector calibration}'' 
 
-The two measurables of XENON100 and XENON1T are S1 and S2 (see Sec.~\ref{sec:xe100}). The efficiency of detecting the scintillation light determines the energy threshold of the detector. Both light and charge yields can be attenuated by impurities in the LXe. 
+The two measurable quantities of \textsc{Xenon100} and \textsc{Xenon1T} are S1 and S2 (see Sec.~\ref{sec:xe100}). The efficiency of detecting the scintillation light determines the energy threshold of the detector. Both light and charge yields can be attenuated by impurities in the LXe, as well as other effects. 
 
-The S1 signal depends on the exact location of the interaction, due to non uniformity of scintillation light collection. This light collection is effected the solid angle covered by the PMTs, Rayleigh scattering length, reflectivity, transmission of the electrodes, etc. Extracted electrons are absorbed by impurities, mainly by oxygen and water, the number of electrons reaching the GXe is depth (z) dependent. Hence a correction to the energy scale both in S1 and S2 should be applied. This calibration is known as light and charge collection. 
+The S1 signal depends on the exact location of the interaction, due to non uniformity of scintillation light collection. This light collection is affected by the solid angle covered by the PMTs, Rayleigh scattering length, reflectivity, transmission of the electrodes etc. Extracted electrons are absorbed by impurities, mainly by oxygen and water, the number of electrons reaching the GXe is depth (z) dependent. Hence a correction to the energy scale both in S1 and S2 should be applied. The calibration used for quantifying these corrections is known as light and charge collection efficiencies. 
 
-The main background source of XENON1T is due to electromagnetic interactions, predominantly, $\gamma$s, interacting in the target. Large fraction of background events occur near the TPC walls, this is due to the stopping power of LXe. Therefore, most of the background rejection is achieved through fiducialization, namely limiting the science data to a smaller FV. In addition, the ratio between S2 and S1 for NRs (expected signal) and ERs (background) is different in nature, and is larger for ERs. The main discrimination power of XENON1T exploit this ratio difference. A good understanding of the different response to the two interaction types is important to quantify the background distribution. In addition, a good understanding of the NR response is important to produce the expected signal model. This is, amongst other, important to understand the effects of different data selection criteria applied in the analysis process. This calibration is known as "NR and ER bands"    
+The main background source of \textsc{Xenon1T} is due to electromagnetic interactions, $\gamma$s, interacting in the target. A large fraction of the background events occur near the TPC walls, due to the stopping power of LXe. Therefore, most of the background rejection is achieved through fiducialization, namely limiting the science data to a smaller FV. In addition, the ratio between S2 and S1 for NRs (expected signal) and ERs (background) is larger for ERs. The main discrimination power of \textsc{Xenon1T} exploit this ratio difference. A good understanding of the different response to the two interaction types is important to quantify the background distribution. In addition, a good understanding of the NR response is important to produce the expected signal model. This is, amongst other, important to understand the effects of different data selection criteria applied in the analysis process. The calibration used for quantifying these responses is known as ``NR and ER bands'' calibration    
 
-The calibration technique used in XENON100, is placing a gamma source outside the detector and create the controlled data sample. However, this approach is not applicable for XENON1T. The main obstacle is to deploy the source inside the water tank. Moreover, for each calibration type, events need to fulfill certain data selection criteria which dictates the rate and energies needed. 
+The calibration technique used in \textsc{Xenon100}, is placing a $\gamma$ source outside the detector and create the controlled data sample. However, this approach is not applicable for \textsc{Xenon1T}. A major obstacle is to deploy the source inside the water tank. Moreover, for each calibration type, events need to fulfill certain data selection criteria which dictate the rate and energies needed. 
 
-For the light and charge collection calibration the full absorption peak is used; therefore even low-energetic sources, such as \Cs\ (662 keV $\gamma$s) can be used to produce a fairly large data sample in a reasonable time. For the ER band calibration, just placing a source near the detector is not sufficient. There are more  data selection criteria needed for this calibration. 
+For the light and charge collection calibration the full absorption peak is used; therefore even relatively low-energetic sources, such as \Cs\ (662 keV $\gamma$s) can be used to produce a fairly large data sample in a reasonable time. For the ER band calibration, just placing a source near the detector is not sufficient, as there are more data selection criteria needed for this calibration. 
 
-A good ER band calibration event should have low energy deposition ($2-15\,\keVee$), contain only a single scatter , and occur inside the FV. Notice that the diameter of XENON1T TPC is $\sim 1$\,meter meaning a $\gamma$ needs to penetrate the FV (travel $\sim 10$\,cm in LXe) interact such that the energy deposition is low (scatter in a small angel), and exit the TPC without interacting again (travel $\sim 90$\,cm) without scattering again to meet the selection criteria. The probability for that to happen, even for a 2\,MeV source is very low $\sim 10^{-7}$. Because the detector cannot process data at high rates ( O(100Hz) ), the amount of time needed for this calibration is extremely long, and a new approach is needed.
+A good ER band calibration event should have low energy deposition ($2-15)\,\keVee$ (electronic equivalent), contain only a single scatter , and occur inside the FV. Notice that the diameter of \textsc{Xenon1T} TPC is $\sim 1$\,meter, meaning a $\gamma$ photon needs to penetrate the FV (travel $\sim 10$\,cm in LXe) interact such that the energy deposition is low (scatter with a small angel), and exit the TPC without interacting again (travel $\sim 90$\,cm) to meet the selection criteria. The probability for that to happen, even for a 2\,MeV source is very low $\sim 10^{-7}$. Since the detector cannot process data at high rates ( O(100Hz) ), the amount of time needed for this calibration is extremely long, and a new approach is needed.
 
-Internal calibration techniques, in which a short lived radioactive source is dissolved inside the LXe is one of the calibration methods used in XENON1T. The radioactive sources used are: $^{83m}\mathrm{Kr}$, tritated methane $\mathrm{CH_3T}$ and $^{220}\mathrm{Rn}$.    
+Internal calibration techniques, in which a short lived radioactive source is dissolved inside the LXe is one of the calibration methods used in \textsc{Xenon1T}. The radioactive sources used are: $^{83m}\mathrm{Kr}$ and $^{220}\mathrm{Rn}$~\cite{Aprile:2016pmc,Aprile:2017aty}. Other LXe experiments (LUX) uses also $\mathrm{CH_3T}$ (tritated methane)~\cite{Akerib:2015wdi}.    
 
-
-
-
-%Using an external source in order to calibrate XENON1T, imposes some difficulties. Due to the Xenon self shielding, it is unlikely for a gamma to penetrate at least 10cm of xenon scatter in a small angle (low energy deposition) and travel ~90 cm outside the cryostat. The rate of events in the cryostat is limited from several aspects such as, “pile ups”, PMT bases, and “dead time” after large S2s. The idea of going into “pile-up mode” is unlikely to work due to the PMT base design. Therefore, re- examination of calibration techniques was needed. In this section I will present the calibration rates for the new selected technique which is now in manufacturing stages and will be installed in XENON1T in the near future.
 
 In this section I describe the new technique for external calibration, mainly ER band calibration, including the radioactive sources used, the holders of the sources which will confine there radiation to a smaller solid angle, and the system which drives the sources into place. The detector has been modeled in details using the GEANT4 toolkit~\cite{AGOSTINELLI2003250} which provides also the nuclear and electronic recoil differential cross-section. Using this powerful toolkit one simulates the response of the detector to the different sources and study the expected response of the detector. 
 
 
 
-\section{Radioactive source}
+\section{Calibration Sources}
 \label{sec:source}
-\subsection{ER band calibration}
-The mean free path of $\gamma$ traveling in xenon is of the order of several cm (8.3\,cm for a 1\,MeV $\gamma$), depending on the $\gamma$'s energy(see Fig.~\ref{fig:MFP}), a good $\gamma$ calibration source should emit energetic enough $\gamma$s to penetrate the FV. 
+\subsection{ER Band Calibration}
+The mean free path of $\gamma$ photons traveling in xenon is of the order of several cm (8.3\,cm for a 1\,MeV $\gamma$), depending on the $\gamma$'s energy (see Fig.~\ref{fig:MFP}), a good $\gamma$ calibration source should emit energetic enough $\gamma$ photons to penetrate the FV. 
 
 \begin{figure}
 	\begin{center}
@@ -46,8 +42,8 @@ The mean free path of $\gamma$ traveling in xenon is of the order of several cm 
 	
 \end{figure} 
 
-The calibration source needed should emit high energetic $\gamma$s and have a long half life so it will not need to be replaced. After careful examination of all available sources, a \Th\ source is selected, see decay chain is in Fig.~\ref{fig:th228}. The energetic $\gamma$ emission line coming from $^{208}\mathrm{Tl}$ with energy of 2614\,keV and intensity of 99~\% can produce good calibration events, and the half life $t_(1/2)=1.9$\,years is long enough.
-The source is encapsulated inside SS, therefore all $\beta$ and $\alpha$ decay products will not reach the detector. Less energetic $\gamma$ emission lines will penetrate the SV and trigger the PMTs but will not proceed to the FV, therefore will be treated as background.
+The calibration source needed should emit high energetic $\gamma$ photons and have a long half life so it will not need to be replaced. After careful examination of all available sources, a \Th\ source was selected, see decay chain is in Fig.~\ref{fig:th228}. The energetic $\gamma$ emission line coming from $^{208}\mathrm{Tl}$ with energy of 2614\,keV and intensity of 99~\% can produce good calibration events, and the half life $t_{\sfrac{1}{2}}=1.9$\,years is long enough.
+The source is encapsulated inside SS, therefore all $\beta$ and $\alpha$ decay products will not reach the detector. Less energetic $\gamma$ emission lines will penetrate the Sensitive Volume (SV) and trigger the PMTs but will not proceed to the FV, therefore will be treated as background.
 
 
 
@@ -61,47 +57,47 @@ The source is encapsulated inside SS, therefore all $\beta$ and $\alpha$ decay p
 	\end{figure} 
  
 In order to estimate the percentage of good calibration events from total triggering, all spectral lines are simulated.  
-A summarize of the more energetic $\gamma$ lines from \Th\ decay chain is presented in Table~\ref{table:isotope}.
+A summary of the more energetic $\gamma$ lines from \Th\ decay chain is presented in Table~\ref{table:isotope}.
 \begin{table}
 \begin{center}
 \resizebox{\textwidth}{!}{
- \begin{tabular}{||c c c c||} 
+ \begin{tabular}{||c c c ||} 
  \hline
- Energy (keV) & SV prob(\%) & Isotope & Intensity(\%) \\ [0.5ex] 
+ Energy (keV) & Isotope & Intensity(\%) \\ [0.5ex] 
  \hline
- 511 & 0.27 & $^{208}\mathrm{Tl}$ & 22.8 \\ 
+ 511 & $^{208}\mathrm{Tl}$ & 22.8 \\ 
  \hline
- 583 & 0.35 & $^{208}\mathrm{Tl}$ & 85 \\
+ 583  & $^{208}\mathrm{Tl}$ & 85 \\
  \hline
- 727 & 0.51 & $^{212}\mathrm{Bi}$ & 6.7 \\
+ 727 & $^{212}\mathrm{Bi}$ & 6.7 \\
  \hline
- 763 & 0.54 & $^{208}\mathrm{Tl}$ & 1.8 \\
+ 763  & $^{208}\mathrm{Tl}$ & 1.8 \\
  \hline
- 861 & 0.64 & $^{208}\mathrm{Tl}$ & 12.4 \\  
+ 861  & $^{208}\mathrm{Tl}$ & 12.4 \\  
  \hline
- 1621 & 1.15 & $^{212}\mathrm{Bi}$ & 1.5 \\  
+ 1621 & $^{212}\mathrm{Bi}$ & 1.5 \\  
  \hline
- 2614 & 1.5 & $^{208}\mathrm{Tl}$ & 99 \\ [1ex] 
+ 2614  & $^{208}\mathrm{Tl}$ & 99 \\ [1ex] 
  \hline
 \end{tabular}
 }
-\caption{High energy gamma lines from \Th\ decay chain}
+\caption{High energy $\gamma$lines from \Th\ decay chain}
 \label{table:isotope}
 \end{center}
 \end{table}
 
-All decays from $^{208}\mathrm{Tl}$ have an attenuation factor of 36\% which is the branching ratio of $^{212}\mathrm{Bi} \rightarrow ^{208}\mathrm{Tl}$
-In total the percentage of 2614\,keV events in the SV is 0.69\% of total source activity.
+All decays from $^{208}\mathrm{Tl}$ have an attenuation factor of 36\% which is the branching ratio of $^{212}\mathrm{Bi} \rightarrow ^{208}\mathrm{Tl}$.
+The percentage of 2614\,keV events interacting in the Sensitive Volume (SV) with respect to all events interacting in SV is 0.69\%.
 
-\subsection{Charge collection efficiency}
-The calibration of the charge collection efficiency is done with less restrict data selection criteria than the ER band calibration. A good calibration sample  should have a well defined characteristic feature obtained from the source in various z-positions. By comparing this feature dependency on height a charge collection efficiency map is produced. A well defined feature is the full absorption peak. 
+\subsection{Charge Collection Efficiency (e$^-$ lifetime)}
+The calibration of the charge collection efficiency is done with less strict data selection criteria than the ER band calibration. A good calibration sample  should have a well defined characteristic feature obtained from the source in various z-positions (e.g., full absorption peak). By comparing this feature dependency on height a charge collection efficiency map is produced.
 
-\Cs\ source which emits a 662\,keV $gamma$ and $t_(1/2) = 30$\,years, is selected for this calibration. The decay of \Cs\ is shown in Fig~\ref{fig:Cs}. The source is deposited inside a 25\,mm diameter disk. 
+\Cs\ source which emits 662\,keV $\gamma$ photons and $t_{\sfrac{1}{2}} = 30$\,years, is selected for this calibration. The decay of \Cs\ is shown in Fig~\ref{fig:Cs}. The source is deposited inside a 25\,mm diameter disk. 
 
 
 \begin{figure}
 	\begin{center}
-	\includegraphics[width=0.55\textwidth, height= 0.3\textheight]{figs/Cs137.png}% Here is how to import 
+	\includegraphics[width=0.55\textwidth, height= 0.3\textheight]{figs/Cs137.jpg}% Here is how to import 
 		\caption{\label{fig:Cs} \Cs\ decay}
 		\end{center}
 	
@@ -109,7 +105,7 @@ The calibration of the charge collection efficiency is done with less restrict d
 
 \section{Collimators} \label{sec:Col}
  
-Large portion of the $\gamma$s arriving to the SV are scattered at the outskirts of the SV and don't reach the FV, these events trigger the PMTs however are of no use for ER band calibration. In order to lower this portion the gamma source will be placed behind a frame, with a conical hole, such that the solid angle of the hole will cover just the FV when the source is located at the center of the TPC (see Fig. ~\ref{fig:Colimator}). 
+Large portion of the $\gamma$s arriving to the SV are scattered at the outskirts of the SV and do not reach the FV, these events trigger the PMTs; however are of no use for ER band calibration. In order to lower this portion the $\gamma$ source will be placed behind a frame, with a conical hole, such that the solid angle of the hole will cover just the FV when the source is located at the center of the TPC (see Fig. ~\ref{fig:Colimator}). 
 
  \begin{figure}
    \centering
@@ -131,9 +127,9 @@ Large portion of the $\gamma$s arriving to the SV are scattered at the outskirts
 
 There are two types of collimators: a 16X16X16\,cm collimator which moves only vertically on a belt (I-Collimator), and a 10X10X10\,cm collimator which also passes below the cryostat (U-Collimator). 
 Both collimators are made of Tungsten with a $45^{\circ}$ aperture, sealed with a 1\,mm SS plate to reduce the amount of water an emitted $\gamma$ travels through. 
-The two collimators are designed to host both sources; the \Th\ source which has an M4 thread; and the \Cs\ source which is deposited on a 1/2" disk. An M12 thread is located in front of the source position to allow adding an attenuator.
+The two collimators are designed to host both sources; the \Th\ source which has an M4 thread; and the \Cs\ source which is deposited on a $\sfrac{1}{2}$" disk. An M12 thread is located in front of the source position to allow adding an attenuator.
  
-The collimators are attached to belts that drive them to various calibration positions. The larger collimator is attached to the "I-belt", see Fig.~\ref{fig:IUBeltpic}. The smaller collimator is attached to the "U-belt", that passes below the cryostat, see Fig.~\ref{fig:IUBeltpic}. The two I belts are connected to ports 5 and 11 while the U belt is connected to ports 12 and 7, on the water tank's top flange see Fig.~\ref{fig:topFlange} 
+The collimators are attached to belts that drive them to various calibration positions. The larger collimator is attached to the ``I-belt'', see Fig.~\ref{fig:IUBeltpic}. The smaller collimator is attached to the ``U-belt'', that passes below the cryostat, see Fig.~\ref{fig:IUBeltpic}. The two I belts are connected to ports 5 and 11 while the U belt is connected to ports 12 and 7, on the water tank's top flange see Fig.~\ref{fig:topFlange}. The system allows integration with the sources and attenuators while the experiment is running, and modeling correctly quantities which might have a time dependency. 
 
 
 \begin{figure}
@@ -156,9 +152,9 @@ The collimators are attached to belts that drive them to various calibration pos
 	\end{figure}
 \subsection{Simulation} \label{subsec:simulation}
 
-In order to decide the source activity and collimator dimensions, a MC simulation using the GEANT4 toolkit is used. The DAQ rate assumed for this study is 350\,Hz.
+In order to decide the source activity and collimator dimensions, a MC simulation using the GEANT4 toolkit was used. The DAQ rate assumed for this study was 350\,Hz. Later it was realized that due to noise and purity conditions the benchmark rate should be however, $\sim100$\,Hz 
 
-The results from the simulation of the I-Collimator which points to the center of the detector are shown in table~\ref{table:ICol}, in Fig~\ref{fig:IBelt} are the original momentum-direction of $\gamma$s which do not produce a "good" calibration event. This is of importance to verify only events coming from the collimator opening will reach the detector's SV.
+The results from the simulation of the I-Collimator which points to the center of the detector are shown in table~\ref{table:ICol}, in Fig~\ref{fig:IBelt} are the original momentum-direction of $\gamma$s which do not produce a ``good'' calibration event. This is of importance to verify only events coming from the collimator opening will reach the detector's SV.
 
 
 \begin{table}
@@ -205,17 +201,8 @@ The results from the simulation of the I-Collimator which points to the center o
 
 
 The detector is attached via a spring to the water tank's floor, this is done to apply force against the detector's buoyancy while filling water. Therefore the U-belt cannot pass underneath the center of the detector. This causes the collimator to be in a small angle with respect to the center of the detector.
-The results of the simulation of the U-Collimator are shown in table~\ref{table:UCol} and Fig.~\ref{fig:UBelt}.
+The results of the simulation of the U-Collimator are shown in table~\ref{table:UCol} and Fig.~\ref{fig:UBelt}. 
 
-
-
-  
-
-% 
-%\subsection{U Collimator}
-%\label{subsec:U_Belt}
-%
-%This 10X10X10cm collimator will be attached to one belt which will be connected to ports 11 \& 7. Due to the direction of the belt the collimator will not shine directly the center of the TPC. At the moment it will serve for ER calibration, and electron lifetime. However because it passes below the cryostat it will be used for other types of calibration. The results from GEANT4 simulation of this collimator are shown in Table~\ref{table:UCol} and Fig~\ref{fig:UBelt}  
 
 
 \begin{table}
@@ -237,7 +224,7 @@ The results of the simulation of the U-Collimator are shown in table~\ref{table:
  \hline
 \end{tabular}
 }
-my\caption[Result of GEANT4 simulation for a 10X10X10cm collimator]{Result of GEANT4 simulation for a 10X10X10cm collimator with an aperture of $45 \deg$, a good event is an event that scattered only once in the FV with energy deposition of 2-15 keVee}
+\mycaption[Result of GEANT4 simulation for a 10X10X10cm collimator]{Result of GEANT4 simulation for a 10X10X10cm collimator with an aperture of $45 \deg$, a good event is an event that scattered only once in the FV with energy deposition of 2-15 keVee}
 \label{table:UCol}
 \end{center}
 \end{table}
@@ -260,6 +247,10 @@ my\caption[Result of GEANT4 simulation for a 10X10X10cm collimator]{Result of GE
 \label{fig:UBelt}
 \end{figure}
 
+Comparing these results to early studies, simulating a ``bare'' source, show that using the collimators reduces the amount of time needed for calibration by a factor three. In addition the design allows sufficient flexibility.
+
+During the first science run, a large population of events near the TPC walls was detected. These events prevents from increasing the size of the FV and keeping low background requirements. In order to better understand the origin and quality of these events we are currently studying the possibility of reducing the intensity of the sources using an attenuator and collecting data only from large radii.  
+
 \section{Summary}
 
-In this chapter I have presented the external calibration technique used in the XENON1T detector. The radioactive sources used for different purposes the collimators holding them, and the belt system driving them. The system is mounted and fully functional.   
+In this chapter I have presented the external calibration technique used in the \textsc{Xenon1T} detector. The radioactive sources used for different purposes are presented along with the collimators holding them. The collimators are attached to belt systems driving them to various positions. This technique reduces the calibration time by a factor of $\sim3$ with respect to naive calibration. The system is mounted and fully functional.   
