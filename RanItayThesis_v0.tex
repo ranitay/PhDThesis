@@ -189,7 +189,8 @@
 \hypersetup{linktocpage}
 
 \usepackage{memhfixc}					%Must be used on memoir document 
-									%class after hyperref
+\usepackage{pdfpages}% Include figure files
+								%class after hyperref
 \usepackage{enumerate}					%For enumeration counter
 \usepackage{footnote}					%For footnotes
 \usepackage{microtype}					%Makes pdf look better.
@@ -406,6 +407,7 @@
 \frontmatter
 \pagenumbering{roman}
 %
+\includepdf[pages=1]{phd_thesis_title_page.pdf}
 \input{frontmatter/title}
 \clearemptydoublepage
 %
