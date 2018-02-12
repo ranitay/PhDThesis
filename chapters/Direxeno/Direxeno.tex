@@ -8,7 +8,7 @@
 \label{chap:Direxeno}
 \initial{I}n Liquid Xenon experiments, the cloud of excimers produced when a particle interacts with xenon is estimated to have a complex shape. Nonetheless it is expected to have a typical size of O(100nm) for NR or very low ER. Hence it is expected that the excimer cloud might undergo a \superradiance\ emission. A variation in the temporal distrinution of radiation between ERs and NRs might exist due to the size of the excimer cloud. This can improve the discrimination between background (ER) and signal (NR) for LXe DM detectors. Moreover, if the emitted radiation is correlated to the incoming particle momentum, it will be possible to reject events from known sources. Discarding events coming from the direction of the sun for example, is necessary once the neutrino floor~\cite{Billard:2013qya} will be crossed.  
 
-Early studies conducted by Basov~\citep{BasovSRTheory} (experimentally) and by NIST~\cite{stim} (theoretically) present the option of generating a coherent radiation in the VUV regime ($\sim178$\,nm). The experimental setup was designed to bombard the LXe with 800~\,keV electron current pulse exciting (10\,ns) the LXe. The constant electron current causes inverse population. In contradiction, in direct detection of DM experiments, there is no ``pump'' producing constant macroscopic inverted population. The particles interacting with the LXe creates only temporal microscopic excited states.  The study of weather a cloud of excimers caused by a single interaction can exhibit \superradiance\ is still absent.
+Early studies conducted by Basov~\citep{BasovSRTheory} (experimentally) and by NIST~\cite{stim} (theoretically) present the option of generating a coherent radiation in the VUV regime ($\sim178$\,nm). The experimental setup was designed to bombard the LXe with 800~\,keV electron current pulse exciting (10\,ns) the LXe. The constant electron current causes inverse population. In contradiction, in direct detection of DM experiments, there is no ``pump'' producing constant macroscopic inverted population. The particles interacting with the LXe creates only temporal microscopic excited states.  The study of whether a cloud of excimers caused by a single interaction can exhibit \superradiance\ is still absent.
 
 In this chapter I discuss \textsc{DireXeno} (Directional Xenon), an experimental setup designed for measuring \superradiance\ and other non-linear effects in LXe.
 
@@ -50,7 +50,7 @@ to the PMTs and handles monitoring, triggering and digitization of data. The ent
 \subsection{The Gas Handling System}
 \label{subsec:gas}
 
-In \textsc{DireXeno} only the prompt scintillation is measured, so a high level of LXe purity is not of a great importance. However in many LXE detectors the desired level of impurity concentration is at the level of 1\,ppb O$_2$ equivalent~\cite{Aprile:2009dv}, this is crucial to allow 
+In \textsc{DireXeno}, only the prompt scintillation is measured, so a high level of LXe purity is not of a great importance. However in many LXE detectors the desired level of impurity concentration is at the level of 1\,ppb O$_2$ equivalent~\cite{Aprile:2009dv}, this is crucial to allow 
 ionization electrons drift for several cm. To reach that purity level in a reasonable amount 
 of time (several days instead of months), 
 a continuous purification is needed. The gas handling system provides this process along 
@@ -115,7 +115,7 @@ flange to the OV top flange. While usually cryo-coolers used for
 xenon experiments constantly operate in maximal cooling, the QDrive cryo-cooler utilizes a 
 temperature control to vary its cooling power up to $\sim$70\,W. This allows setting a desired working temperature which is constant within less then $0.1~\mathrm{^{\circ}C}$ measured on the cryo-cooler.
 
-On the inner side of the IV bottom flange a thin 0.6~mm SS funnel is installed 
+On the inner side of the IV bottom flange a thin 0.6~mm Stainless Steel (SS) funnel is installed 
 collecting LXe drops from the cold finger, and delivering them to the  detector. This flange is attached to the detector part, via a $3\sfrac{3}{8}$" flexible bellows. The 
 bellows hosts two pipes connected to the circulation system, and a third pipe coming 
 from the funnel. The three pipes deliver LXe whereas the GXe is filling the bellows volume. The purer LXe (from the gas handling system) and the less pure LXe (from the cold finger) are separated, and can be delivered to different parts of the system. Some of the guidelines for the design of 
@@ -245,13 +245,12 @@ A global majority trigger is generated in the logic module with the coincidence 
 \label{sec:opt}
 
 
-The central component of the experiment is the HPFS sphere, which holds the LXe target, located in the center of the detector system. The sphere is made of two HPFS hemispheres bonded together. The refractive index of this HPFS is 1.58 at 185 nm, matching to the LXe one, which is 1.61. Hence, there is minimal diffraction from the original direction of the photons as they pass from the LXe target to the sphere. The refractive index at various wavelengths was measured in Prof. Amos Breskin's lab using a VUV monochromator\footnote{McPherson 234/302VM}. The results of this measurements are shown in Fig.~\ref{fig:hpfsRIcalibration} (left panel).
+The central component of the experiment is the HPFS sphere, which holds the LXe target, located in the center of the detector system. In order to allowthe measurement of the original direction of photons emitted by the LXe, it is important to reduce the amount of diffractions and absorptions of photons on their path from the LXE to the PMTs.   
 
-
-The HPFS transparency to VUV photons is crucial parameter for setting the sphere's dimensions (inner and outer radii). 
+To insure the photones emitted by the LXe rcan be measured by the PMTs, the HPFS transparency to VUV photons is crucial parameter for setting the sphere's dimensions (inner and outer radii). 
 Therefore, the transmittance of an HPFS sample was measured, using the above mention VUV monochromator. The deuterium light source\footnote{McPherson 632} spectrum is in the range of (110-190)\,nm, peaked at 160\.nm was facing a vacuum space. Using a PMT placed in the vacuum, the intensity of the light is measured, both with and without the HPFS sample. The ratio of the measured intensities is converted to the transmittance of the HPFS. The transmittances as a function of wavelength are shown in Fig.~\ref{fig:hpfsRIcalibration}~(right panel). The transmittance of the sample at 178~\,nm, is$\sim98.7$\,\%/cm.  
 
-
+In order to reduce the diffraction in the LXe-HPFS transition, the sphere material is chosen to be HPFS, as he refractive index of it HPFS is 1.58 at 185 nm, matching to the LXe one, which is 1.61. The refractive index of this HPFS is 1.58 at 185 nm, matching to the LXe one, which is 1.61. The refractive index at various wavelengths was measured in Prof. Amos Breskin's lab using a VUV monochromator\footnote{McPherson 234/302VM}. The results of this measurements are shown in Fig.~\ref{fig:hpfsRIcalibration} (left panel). The sphere is made of two HPFS hemispheres bonded together.
 
 \begin{figure}
 \centering
@@ -266,11 +265,13 @@ Therefore, the transmittance of an HPFS sample was measured, using the above men
    \label{fig:hpfsRIcalibration}}
 \end{figure}
 
+Finally, in oder to reduce the diffraction in the HPFS-Vacuum transition as well as internal reflections, the sphere should be thick so all photons will arrive in a perpendicular angle to the HPFS surface. In addition the sphere must not be too thick not to attenuate the scintillation light. The LXe target bubble within should be large to increase the detector medium but not be too large in order to avoid double scatters. Using a GEANT4 based simulation~\cite{AGOSTINELLI2003250} studying the path of the scintillation photons the sphere dimensions are optimized. The outer radius is chosen to be 3 cm, and the inner (the hollow space that holds the LXe) is chosen to be 1 cm. 
+
+
 The sources that will be used for exciting the xenon and creating the supperradiance (signal) as well as the standard emission (background), will be $^{137} \mathrm{Cs}$ 
 (E$_\gamma$=662 keV) and $^{57} \mathrm{Co}$ (E$_\gamma$= 122keV \& 136 keV) for ER with mean free path of $\sim4$\,cm and $\sim1$\,cm respectively. For NR, $^{241}$AmBe , D-D neutron generator, or neutron produced in an accelerator will be used. 
 
-Using a GEANT4 based simulation~\cite{AGOSTINELLI2003250} studying the path of the scintillation photons the sphere dimensions are optimized. The shell should be thick enough to reduce internal reflections, but not 
-too thick to attenuate the scintillation light. The LXe target bubble within should not be too large in order to avoid double scatters. The outer radius is chosen to be 3 cm, and the inner (the hollow space that holds the LXe) is chosen to be 1 cm. 
+
 
 \FloatBarrier
 \section{Detector Sensitivity}

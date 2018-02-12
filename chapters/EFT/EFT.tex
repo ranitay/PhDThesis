@@ -7,12 +7,12 @@
 \chapter{Effective Field Theory Search for High Energy Nuclear Recoils in \textsc{Xenon100} Detector}
 \label{chap:EFT}
 
-\initial{S}tandard SI,SD analysis concentrate on energy recoils of up to O(10)\,$\keVr$, hence a hard high energy threshold is used for them. In \textsc{Xenon100} this threshold value is 43\,$\keVr$. However SI and SD are not the only types of interactions possible. These new interactions which predicts higher recoil energies are considered in the EFT framework (see ~\ref{sec:intro_EFT}). Moreover a WIMP may have several mass states, which may also result in a possible higher energy recoil. In Fig.~\ref{fig:EFTdrde} is an example of an expected recoil spectrum from different operators. 
+\initial{S}tandard SI, SD analysis concentrate on energy recoils of up to O(10)\,$\keVr$ (nuclear recoil), hence a high energy threshold is used for them. In \textsc{Xenon100} this threshold value is 43\,$\keVr$. However SI and SD are not the only types of interactions possible. These new interactions which predicts higher recoil energies are considered in the EFT framework (see ~\ref{sec:intro_EFT}). Moreover a WIMP may have several mass states, which may also result in a possible higher energy recoil. In Fig.~\ref{fig:EFTdrde} is an example of an expected recoil spectrum from different operators. 
 
 \begin{figure}[t!]
 	\centering
 	\includegraphics[width=0.8\textwidth]{fig/drde.png}
-	\mycaption[drde for example operators.]{Example EFT recoil spectra for elastic scattering of spin-$1/2$ WIMPs on Xenon nuclei (weighted according to the isotope abundances in the \textsc{Xenon100} experiment). Left(right) shows the predicted spectra for EFT operator $\mathcal{O}_1$($\mathcal{O}_6$). The normalization is controlled by the coupling coefficient of each EFT operator and the experimental exposure. The solid vertical line at $43~\keVr$ shows the approximate division between the two signal regions used in this analysis. As shown, the standard SI ($\mathcal{O}_1$) spectrum is concentrated mainly in the already explored energy region. However, some EFT operators, for certain WIMP masses, predict a significant fraction of recoil events above the upper energy cut used in the standard SI analysis, motivating an extension of this cut. The highest recoil energy shown in the plots, $240~\keVr$, roughly corresponds to the highest energy accounted for this analysis.}
+	\mycaption[drde for example operators.]{Example EFT recoil spectra for elastic scattering of spin-$1/2$ WIMPs on Xenon nuclei (weighted according to the isotope abundances in the \textsc{Xenon100} experiment). Left (right) shows the predicted spectra for EFT operator $\mathcal{O}_1$($\mathcal{O}_6$). The normalization is controlled by the coupling coefficient of each EFT operator and the experimental exposure. The solid vertical line at $43~\keVr$ shows the approximate division between the two signal regions used in this analysis. As shown, the standard SI ($\mathcal{O}_1$) spectrum is concentrated mainly in the already explored energy region. However, some EFT operators, for certain WIMP masses, predict a significant fraction of recoil events above the upper energy cut used in the standard SI analysis, motivating an extension of this cut. The highest recoil energy shown in the plots, $240~\keVr$, roughly corresponds to the highest energy accounted for this analysis.}
 	\label{fig:EFTdrde}
 \end{figure}
 
@@ -71,11 +71,12 @@ These errors are small with respect to the statistical uncertainties of each ban
 
 \section{High Energy Channel}
 \label{subsubsec:HighE}
+
 This analysis channel targets high-energy nuclear recoils and is the focus of this work. The data selection criteria used are based on the criteria described in detail in \cite{Aprile:2012vw}, which were optimized for high acceptance to low-energy nuclear recoils. Most of these cuts were found to be fully compatible with (or easily extended) to high energy depositions; however some required more comprehensive studies, which are described in the following . 
 
 The width of an \Sii{} pulse increases with the depth (z) of the interaction. This is due to the diffusion of the electron cloud during its propagation
 through the liquid xenon. Since low-energy \Sii{} events show larger spread
-due to low statistics of drifted electrons, the cut was previously defined in an energy-dependent way. However, for the large recoil energies considered in this channel, this energy dependency is no longer valid. I therefore use here a cut on the \Sii{} width which is a function of the depth of the interaction alone. 
+due to low statistics of drifted electrons, the cut on the S2 width was previously defined in an energy-dependent way. However, for the large recoil energies considered in this channel, this energy dependency is no longer valid. I therefore use here a cut on the \Sii{} width which is a function of the depth of the interaction alone. 
 
 As a WIMP will interact only once in the detector, I remove events which have more than one \Sii{}. I adopt in this analysis a cut that is more suitable to higher energies and demand a single \Sii{} in a 160 $\mu$s window, instead of a linear dependence between the second \Sii{} size and the first. 
 
@@ -187,7 +188,7 @@ In both cases, the signal distributions are normalized to yield five events in t
 \begin{minipage}{1.\linewidth}
 \centerline{\includegraphics[width=1.\linewidth]{fig/SigLowO1O6.png}}
 \end{minipage}
-\mycaption[The expected signal in low energy region ]{The expected signal in the low-energy region for a 300~GeV/$c^2$ WIMP mass, normalized to five events. (a)is the spectra for $\mathcal{O}_1$ (b) is the spectra for $\mathcal{O}_6$. Notice that for $\mathcal{O}_1$ most of the events are expected to deposit energy lower than 30~PE whereas for $\mathcal{O}_6$ a large fraction of the events do not appear in this region at all. The black lines indicate the bands constructed on these specific mass and operator models, and are dividing the signal into eight equally distributed signal subregions. This parameter space can be mapped with a one-to-one mapping to the log$(cSiib/\cSi)-\cSi)$ space.
+\mycaption[The expected signal in low energy region ]{The expected signal in the low-energy region for a 300~GeV/$c^2$ WIMP mass, normalized to five events. (a)is the spectra for $\mathcal{O}_1$ (b) is the spectra for $\mathcal{O}_6$. Notice that for $\mathcal{O}_1$ most of the events are expected to deposit energy lower than 30~PE whereas for $\mathcal{O}_6$ a large fraction of the events do not appear in this region at all. The black lines indicate the bands constructed on these specific mass and operator models, and are dividing the signal into eight equally distributed signal subregions. This parameter space can be mapped with a one-to-one mapping to the log$(\ensuremath{\mathrm{cS2}_\mathrm{b}} / \cSi)-\cSi)$ space.
 \label{fig:LowE}}
 \end{figure}
 
@@ -201,6 +202,7 @@ The expected recoil energy spectrum of each WIMP mass for each EFT operator is c
 
 \subsection{Inelastic WIMP Scattering}
 \label{subsubsec:Inelastic}
+
 To obtain recoil spectra for WIMP-nucleon scattering for all EFT operators with inelastic kinematics, I use a modified version of \texttt{DMFormFactor} provided by Barello et al. \cite{InelasticMath}. The authors have modified the original package to enforce the new energy conservation condition $\delta_m + \vec{v}\cdot\vec{q} + \left|\vec{q}\right|^2/2\mu_N = 0$, primarily by replacing 
 $\vec{v}^\perp_{elastic} \rightarrow \vec{v}^\perp_{inelastic} = \vec{v}^\perp_{elastic} +\frac{\delta_m}{\vert{\vec{q}}\vert^2}\vec{q}$ in the definitions of the EFT and nuclear operators. 
 
@@ -209,7 +211,7 @@ Assumptions regarding the dark matter halo and nuclear physics are unchanged. Th
 \section{Statistical Inference}
 \label{sec:LikelihoodFunction}
 
-The statistical interpretation of data is performed using a binned profile likelihood method, in which hypothesis testing relies upon a likelihood ratio test statistic, $\tilde{q}$, and its asymptotic distributions~\cite{asympt} to constrain the coupling constants $c_k$ for each operator $\mathcal{O}_k$. The two analysis channels are combined by multiplying their likelihoods together to produce a joint likelihood function
+The statistical interpretation of the data is performed using a binned profile likelihood method, in which hypothesis testing relies upon a likelihood ratio test statistic, $\tilde{q}$, and its asymptotic distributions~\cite{asympt} to constrain the coupling constants $c_k$ for each operator $\mathcal{O}_k$. The two analysis channels are combined by multiplying their likelihoods together to produce a joint likelihood function
 
 \begin{equation}
 \label{eq:FullLikelihood}
@@ -242,7 +244,7 @@ where $f^j_s$ and $f^j_b$ are the probability density functions of the signal an
 \Llike_2 = \prod_j Poiss(n^j_b | \epsilon_b^jN_b)
 \end{equation} 
 
-The high-energy channel analysis employs a binned likelihood function. Observed and expected event yield are compared in the nine ROI log$(\cSiib/\cSi),\cSi{})$-bins described in Sec.~\ref{subsubsec:HighE}. 
+The high-energy channel analysis employs a binned likelihood function. Observed and expected event yields are compared in the nine ROI log$(\cSiib/\cSi),\cSi{})$-bins described in Sec.~\ref{subsubsec:HighE}. 
 Given the large statistical uncertainty of the background model the above extended likelihood approach is not repeated here.
 Instead, the maximum likelihood estimation of the background expectation in each bin is constrained by the statistical uncertainty of the calibration sample, while the total 
 normalization is fit to the data. Additionally, to account for potential mis-modeling of the expected background distribution, mainly due to anomalous multiple scatter events,
@@ -293,7 +295,7 @@ projections of results from CDMS-II~\cite{CDMS_Inelastic}, ZEPLIN-III~\cite{Zepp
 \begin{minipage}{1.\linewidth}{}
 \centerline{\includegraphics[width=\textwidth,height=0.99\textheight,keepaspectratio]{fig/ElasticAllLimitCDMS.pdf}}
 \end{minipage}
-\mycaption[The \Xehund\ limits (90\%\,C.L.$_S$) on isoscalar dimensionless coupling for all elastic scattering EFT operators]{The \Xehund\ limits (90\%\,C.L.$_S$) on isoscalar dimensionless coupling for all elastic scattering EFT operators. The limits are indicated in solid black. The expected sensitivity is shown in green and yellow(1$\sigma$ and 2$\sigma$ respectively). Limits from CDMS-II Si, CDMS-II Ge, and SuperCDMS \cite{CDMSEFT} are presented as blue asterisks, green triangles, and orange rectangles, respectively. For operators 3 and 8, a full limit was published, for all other operators only $m_\chi = 10$ and $m_\chi =300$ are available.}
+\mycaption[The \Xehund\ limits (90\%\,C.L.$_S$) on isoscalar dimensionless coupling for all elastic scattering EFT operators]{The \Xehund\ limits (90\%\,C.L.$_S$) on isoscalar dimensionless coupling for all elastic scattering EFT operators. The limits are indicated in solid black lines. The expected sensitivity is shown in green and yellow(1$\sigma$ and 2$\sigma$ respectively). Limits from CDMS-II Si, CDMS-II Ge, and SuperCDMS \cite{CDMSEFT} are presented as blue asterisks, green triangles, and orange rectangles, respectively. For operators 3 and 8, a full limit was published, for all other operators only $m_\chi = 10$ and $m_\chi =300$ are available.}
 \label{fig:elasticLimit}
 \end{figure*}
 
